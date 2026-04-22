@@ -1,15 +1,49 @@
-# Python
-__pycache__/
-*.pyc
+# Python virtual environments
+
 .venv/
+.venv_packages/
+venv/
+env/
 
-# Data
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Data (large/raw files)
+
 data/raw/
-data/*.csv
+*.csv
+*.tsv
+*.txt
 
-# Results
+# Results and outputs
+
 results/
+*.log
 
-# OS
+# Models (if large)
+
+models/*.pkl
+models/*.joblib
+
+# OS files
+
 .DS_Store
 Thumbs.db
+
+# IDE / Editor
+
+.vscode/
+.idea/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Temporary files
+
+*.tmp
+*.bak
