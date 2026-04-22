@@ -1,0 +1,26 @@
+{
+  "samples": 514,
+  "patients": 514,
+  "genes_after_duplicate_aggregation_and_missing_filter": 20524,
+  "idh_mutated": 416,
+  "idh_wildtype": 98,
+  "class_balance": {
+    "0": 98,
+    "1": 416
+  },
+  "sample_type_counts": {
+    "Primary": 514
+  },
+  "tumor_type_counts": {
+    "Astrocytoma": 194,
+    "Oligodendroglioma": 189,
+    "Oligoastrocytoma": 130,
+    "Low-Grade Glioma": 1
+  },
+  "grade_counts": {
+    "G3": 264,
+    "G2": 248,
+    "NaN": 2
+  },
+  "note": "Mutation file was used only to create IDH_status. No mutation-derived columns are included in expression features."
+}

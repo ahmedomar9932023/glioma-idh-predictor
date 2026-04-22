@@ -1,0 +1,515 @@
+SAMPLE_ID,PATIENT_ID,IDH_status,label_source,ONCOTREE_CODE,CANCER_TYPE,CANCER_TYPE_DETAILED,TUMOR_TYPE,GRADE,TISSUE_PROSPECTIVE_COLLECTION_INDICATOR,TISSUE_RETROSPECTIVE_COLLECTION_INDICATOR,TISSUE_SOURCE_SITE_CODE,TUMOR_TISSUE_SITE,ANEUPLOIDY_SCORE,SAMPLE_TYPE,MSI_SCORE_MANTIS,MSI_SENSOR_SCORE,SOMATIC_STATUS,TMB_NONSYNONYMOUS,TISSUE_SOURCE_SITE,TBL_SCORE
+TCGA-CS-4938-01,TCGA-CS-4938,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,CS,CNS,1,Primary,0.303,0,Matched,0.466666667,Thomas Jefferson University,31
+TCGA-CS-4941-01,TCGA-CS-4941,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,7,Primary,0.2736,0,Matched,1.466666667,Thomas Jefferson University,26
+TCGA-CS-4942-01,TCGA-CS-4942,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,2,Primary,0.281,0.02,Matched,0.866666667,Thomas Jefferson University,22
+TCGA-CS-4943-01,TCGA-CS-4943,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,5,Primary,0.2751,0.25,Matched,0.8,Thomas Jefferson University,130
+TCGA-CS-4944-01,TCGA-CS-4944,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,CS,CNS,1,Primary,0.2697,0.04,Matched,0.7,Thomas Jefferson University,20
+TCGA-CS-5390-01,TCGA-CS-5390,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,CS,CNS,2,Primary,0.2623,0.1,Matched,1.466666667,Thomas Jefferson University,6
+TCGA-CS-5393-01,TCGA-CS-5393,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,0,Primary,0.2715,0,Matched,0.8,Thomas Jefferson University,49
+TCGA-CS-5394-01,TCGA-CS-5394,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,1,Primary,0.3295,0.16,Matched,0.733333333,Thomas Jefferson University,5
+TCGA-CS-5395-01,TCGA-CS-5395,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,CS,CNS,8,Primary,0.2735,0.07,Matched,1.4,Thomas Jefferson University,28
+TCGA-CS-5396-01,TCGA-CS-5396,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,CS,CNS,6,Primary,0.2798,0,Matched,0.933333333,Thomas Jefferson University,14
+TCGA-CS-5397-01,TCGA-CS-5397,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,9,Primary,0.2936,0,Matched,1.1,Thomas Jefferson University,108
+TCGA-CS-6186-01,TCGA-CS-6186,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,CS,CNS,7,Primary,0.2942,0.02,Matched,1.666666667,Thomas Jefferson University,33
+TCGA-CS-6188-01,TCGA-CS-6188,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,6,Primary,0.3077,0,Matched,1.2,Thomas Jefferson University,57
+TCGA-CS-6290-01,TCGA-CS-6290,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,0,Primary,0.2888,0,Matched,0.666666667,Thomas Jefferson University,10
+TCGA-CS-6665-01,TCGA-CS-6665,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,19,Primary,0.2995,0.05,Matched,2.033333333,Thomas Jefferson University,52
+TCGA-CS-6666-01,TCGA-CS-6666,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,CS,CNS,8,Primary,0.303,0,Matched,1.433333333,Thomas Jefferson University,133
+TCGA-CS-6667-01,TCGA-CS-6667,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,CS,CNS,1,Primary,0.3037,0,Matched,0.7,Thomas Jefferson University,10
+TCGA-CS-6668-01,TCGA-CS-6668,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,CS,CNS,2,Primary,0.3029,0.01,Matched,0.733333333,Thomas Jefferson University,7
+TCGA-CS-6669-01,TCGA-CS-6669,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,CS,CNS,0,Primary,0.292,0,Matched,0,Thomas Jefferson University,0
+TCGA-CS-6670-01,TCGA-CS-6670,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,,,CS,CNS,2,Primary,0.3002,0,Matched,1.1,Thomas Jefferson University,7
+TCGA-DB-5270-01,TCGA-DB-5270,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DB,CNS,2,Primary,0.2639,0,Matched,0.7,Mayo Clinic - Rochester,13
+TCGA-DB-5273-01,TCGA-DB-5273,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DB,CNS,1,Primary,0.2724,0.02,Matched,0.366666667,Mayo Clinic - Rochester,18
+TCGA-DB-5274-01,TCGA-DB-5274,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DB,CNS,2,Primary,0.268,0.01,Matched,1.533333333,Mayo Clinic - Rochester,2
+TCGA-DB-5275-01,TCGA-DB-5275,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DB,CNS,3,Primary,0.2726,0.22,Matched,1.333333333,Mayo Clinic - Rochester,106
+TCGA-DB-5276-01,TCGA-DB-5276,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DB,CNS,0,Primary,0.2762,0.01,Matched,0.5,Mayo Clinic - Rochester,8
+TCGA-DB-5277-01,TCGA-DB-5277,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DB,CNS,9,Primary,0.2819,0.69,Matched,1.233333333,Mayo Clinic - Rochester,248
+TCGA-DB-5278-01,TCGA-DB-5278,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DB,CNS,2,Primary,0.2659,0.25,Matched,0.266666667,Mayo Clinic - Rochester,6
+TCGA-DB-5279-01,TCGA-DB-5279,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DB,CNS,15,Primary,0.2803,0.08,Matched,1.2,Mayo Clinic - Rochester,3
+TCGA-DB-5280-01,TCGA-DB-5280,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,DB,CNS,0,Primary,0.2732,0.03,Matched,0.833333333,Mayo Clinic - Rochester,1
+TCGA-DB-5281-01,TCGA-DB-5281,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DB,CNS,6,Primary,0.2716,0.02,Matched,1.7,Mayo Clinic - Rochester,173
+TCGA-DB-A4X9-01,TCGA-DB-A4X9,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,4,Primary,0.3146,0,Matched,0.766666667,Mayo Clinic - Rochester,3
+TCGA-DB-A4XA-01,TCGA-DB-A4XA,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,2,Primary,0.306,0,Matched,0.533333333,Mayo Clinic - Rochester,7
+TCGA-DB-A4XB-01,TCGA-DB-A4XB,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DB,CNS,0,Primary,0.3091,0.07,Matched,1,Mayo Clinic - Rochester,20
+TCGA-DB-A4XC-01,TCGA-DB-A4XC,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,0,Primary,0.3289,0.08,Matched,0.633333333,Mayo Clinic - Rochester,30
+TCGA-DB-A4XD-01,TCGA-DB-A4XD,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DB,CNS,0,Primary,0.3121,0.01,Matched,1.1,Mayo Clinic - Rochester,9
+TCGA-DB-A4XE-01,TCGA-DB-A4XE,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DB,CNS,5,Primary,0.2953,0,Matched,0.8,Mayo Clinic - Rochester,15
+TCGA-DB-A4XF-01,TCGA-DB-A4XF,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DB,CNS,0,Primary,0.2994,0.07,Matched,0.966666667,Mayo Clinic - Rochester,26
+TCGA-DB-A4XG-01,TCGA-DB-A4XG,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DB,CNS,4,Primary,0.3259,0.17,Matched,0.7,Mayo Clinic - Rochester,3
+TCGA-DB-A4XH-01,TCGA-DB-A4XH,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,2,Primary,0.3094,0.06,Matched,1.3,Mayo Clinic - Rochester,16
+TCGA-DB-A64L-01,TCGA-DB-A64L,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DB,CNS,13,Primary,0.298,0.07,Matched,2.433333333,Mayo Clinic - Rochester,9
+TCGA-DB-A64O-01,TCGA-DB-A64O,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,8,Primary,0.3045,0,Matched,0.766666667,Mayo Clinic - Rochester,19
+TCGA-DB-A64P-01,TCGA-DB-A64P,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DB,CNS,3,Primary,0.2945,0.01,Matched,0.866666667,Mayo Clinic - Rochester,9
+TCGA-DB-A64Q-01,TCGA-DB-A64Q,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,3,Primary,0.3118,0.04,Matched,0.633333333,Mayo Clinic - Rochester,7
+TCGA-DB-A64R-01,TCGA-DB-A64R,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DB,CNS,2,Primary,0.3077,0,Matched,0.5,Mayo Clinic - Rochester,3
+TCGA-DB-A64S-01,TCGA-DB-A64S,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,0,Primary,0.3057,0,Matched,0.4,Mayo Clinic - Rochester,2
+TCGA-DB-A64U-01,TCGA-DB-A64U,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DB,CNS,2,Primary,0.3034,0.01,Matched,0.333333333,Mayo Clinic - Rochester,4
+TCGA-DB-A64V-01,TCGA-DB-A64V,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DB,CNS,2,Primary,0.3035,0,Matched,1,Mayo Clinic - Rochester,9
+TCGA-DB-A64W-01,TCGA-DB-A64W,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DB,CNS,5,Primary,0.3127,0,Matched,1.333333333,Mayo Clinic - Rochester,10
+TCGA-DB-A64X-01,TCGA-DB-A64X,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DB,CNS,0,Primary,0.3072,0,Matched,2.166666667,Mayo Clinic - Rochester,48
+TCGA-DB-A75K-01,TCGA-DB-A75K,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DB,CNS,2,Primary,0.3281,0,Matched,1.166666667,Mayo Clinic - Rochester,10
+TCGA-DB-A75L-01,TCGA-DB-A75L,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DB,CNS,4,Primary,0.3292,0.04,Matched,1.233333333,Mayo Clinic - Rochester,29
+TCGA-DB-A75M-01,TCGA-DB-A75M,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,DB,CNS,1,Primary,0.3329,0.02,Matched,0.833333333,Mayo Clinic - Rochester,9
+TCGA-DB-A75O-01,TCGA-DB-A75O,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DB,CNS,2,Primary,0.3276,0,Matched,0.5,Mayo Clinic - Rochester,58
+TCGA-DB-A75P-01,TCGA-DB-A75P,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,DB,CNS,2,Primary,0.3294,0,Matched,0.166666667,Mayo Clinic - Rochester,4
+TCGA-DH-5140-01,TCGA-DH-5140,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DH,CNS,13,Primary,0.2629,0.32,Matched,0.9,University of Florida,94
+TCGA-DH-5141-01,TCGA-DH-5141,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DH,CNS,2,Primary,0.2583,0.02,Matched,0.866666667,University of Florida,4
+TCGA-DH-5142-01,TCGA-DH-5142,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DH,CNS,5,Primary,0.2682,0.03,Matched,1.133333333,University of Florida,31
+TCGA-DH-5143-01,TCGA-DH-5143,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DH,CNS,1,Primary,0.2646,0,Matched,0.9,University of Florida,8
+TCGA-DH-5144-01,TCGA-DH-5144,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DH,CNS,2,Primary,0.2628,0.14,Matched,1.166666667,University of Florida,6
+TCGA-DH-A669-01,TCGA-DH-A669,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DH,CNS,26,Primary,0.323,0.16,Matched,1.7,University of Florida,148
+TCGA-DH-A66B-01,TCGA-DH-A66B,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DH,CNS,10,Primary,0.3027,0.01,Matched,1.433333333,University of Florida,51
+TCGA-DH-A66D-01,TCGA-DH-A66D,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DH,CNS,4,Primary,0.312,0.01,Matched,1.433333333,University of Florida,15
+TCGA-DH-A66F-01,TCGA-DH-A66F,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DH,CNS,2,Primary,0.3079,0.05,Matched,0.566666667,University of Florida,2
+TCGA-DH-A66G-01,TCGA-DH-A66G,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DH,CNS,5,Primary,0.3154,0.03,Matched,1.1,University of Florida,33
+TCGA-DH-A7UR-01,TCGA-DH-A7UR,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DH,CNS,3,Primary,0.3079,0.07,Matched,1.9,University of Florida,12
+TCGA-DH-A7US-01,TCGA-DH-A7US,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DH,CNS,2,Primary,0.2996,0,Matched,0.966666667,University of Florida,2
+TCGA-DH-A7UT-01,TCGA-DH-A7UT,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DH,CNS,7,Primary,0.3253,0.01,Matched,0.633333333,University of Florida,21
+TCGA-DH-A7UU-01,TCGA-DH-A7UU,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DH,CNS,4,Primary,0.3194,0.07,Matched,1.4,University of Florida,38
+TCGA-DH-A7UV-01,TCGA-DH-A7UV,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DH,CNS,2,Primary,0.3082,0,Matched,1.033333333,University of Florida,12
+TCGA-DU-5847-01,TCGA-DU-5847,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,7,Primary,0.2986,0.05,Matched,1.166666667,Henry Ford Hospital,32
+TCGA-DU-5849-01,TCGA-DU-5849,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,3,Primary,0.2822,0.02,Matched,1,Henry Ford Hospital,6
+TCGA-DU-5851-01,TCGA-DU-5851,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DU,CNS,0,Primary,0.2961,0,Matched,0.7,Henry Ford Hospital,23
+TCGA-DU-5852-01,TCGA-DU-5852,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,6,Primary,0.2992,0,Matched,2.166666667,Henry Ford Hospital,53
+TCGA-DU-5853-01,TCGA-DU-5853,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DU,CNS,0,Primary,0.2998,0.01,Matched,0.566666667,Henry Ford Hospital,24
+TCGA-DU-5854-01,TCGA-DU-5854,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,7,Primary,0.2846,0,Matched,1.4,Henry Ford Hospital,66
+TCGA-DU-5855-01,TCGA-DU-5855,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DU,CNS,1,Primary,0.2913,0,Matched,1.533333333,Henry Ford Hospital,68
+TCGA-DU-5870-01,TCGA-DU-5870,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,,Primary,0.2838,0.03,Matched,0.433333333,Henry Ford Hospital,6
+TCGA-DU-5871-01,TCGA-DU-5871,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DU,CNS,1,Primary,0.2859,0,Matched,0.966666667,Henry Ford Hospital,85
+TCGA-DU-5872-01,TCGA-DU-5872,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DU,CNS,1,Primary,0.3001,0,Matched,0.833333333,Henry Ford Hospital,9
+TCGA-DU-5874-01,TCGA-DU-5874,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,2,Primary,0.3014,0.02,Matched,1.233333333,Henry Ford Hospital,21
+TCGA-DU-6392-01,TCGA-DU-6392,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,2,Primary,0.5506,8.57,Matched,363.4333333,Henry Ford Hospital,8
+TCGA-DU-6393-01,TCGA-DU-6393,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,8,Primary,0.3022,0.02,Matched,0.9,Henry Ford Hospital,4
+TCGA-DU-6394-01,TCGA-DU-6394,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,2,Primary,0.2917,0,Matched,1.033333333,Henry Ford Hospital,8
+TCGA-DU-6395-01,TCGA-DU-6395,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,DU,CNS,3,Primary,0.2954,0,Matched,0.766666667,Henry Ford Hospital,27
+TCGA-DU-6396-01,TCGA-DU-6396,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,2,Primary,0.2915,0,Matched,1.2,Henry Ford Hospital,62
+TCGA-DU-6397-01,TCGA-DU-6397,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,2,Primary,0.2962,0.16,Matched,1.166666667,Henry Ford Hospital,12
+TCGA-DU-6399-01,TCGA-DU-6399,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,1,Primary,0.303,0,Matched,1.5,Henry Ford Hospital,24
+TCGA-DU-6400-01,TCGA-DU-6400,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,3,Primary,0.2966,0,Matched,1.433333333,Henry Ford Hospital,3
+TCGA-DU-6401-01,TCGA-DU-6401,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,2,Primary,0.2918,0,Matched,0.8,Henry Ford Hospital,22
+TCGA-DU-6402-01,TCGA-DU-6402,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,5,Primary,0.2903,0.02,Matched,1.5,Henry Ford Hospital,69
+TCGA-DU-6403-01,TCGA-DU-6403,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,4,Primary,0.2843,0,Matched,1.8,Henry Ford Hospital,50
+TCGA-DU-6404-01,TCGA-DU-6404,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,2,Primary,0.2898,0,Matched,0.433333333,Henry Ford Hospital,4
+TCGA-DU-6405-01,TCGA-DU-6405,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,4,Primary,0.2937,0.11,Matched,1.633333333,Henry Ford Hospital,55
+TCGA-DU-6406-01,TCGA-DU-6406,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,8,Primary,0.3013,0,Matched,0.166666667,Henry Ford Hospital,54
+TCGA-DU-6407-01,TCGA-DU-6407,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,7,Primary,0.2971,0.21,Matched,0.7,Henry Ford Hospital,55
+TCGA-DU-6408-01,TCGA-DU-6408,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,1,Primary,0.3029,0,Matched,0.833333333,Henry Ford Hospital,20
+TCGA-DU-6410-01,TCGA-DU-6410,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DU,CNS,6,Primary,0.3115,0.12,Matched,1.333333333,Henry Ford Hospital,9
+TCGA-DU-6542-01,TCGA-DU-6542,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DU,CNS,1,Primary,0.3062,0.04,Matched,0.733333333,Henry Ford Hospital,184
+TCGA-DU-7006-01,TCGA-DU-7006,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,6,Primary,0.3065,0,Matched,1.966666667,Henry Ford Hospital,54
+TCGA-DU-7007-01,TCGA-DU-7007,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,DU,CNS,2,Primary,0.3159,0.12,Matched,1.166666667,Henry Ford Hospital,22
+TCGA-DU-7008-01,TCGA-DU-7008,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,0,Primary,0.3056,0,Matched,0.933333333,Henry Ford Hospital,77
+TCGA-DU-7009-01,TCGA-DU-7009,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,4,Primary,0.3058,0,Matched,0.666666667,Henry Ford Hospital,5
+TCGA-DU-7010-01,TCGA-DU-7010,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,18,Primary,0.3135,0.01,Matched,2.833333333,Henry Ford Hospital,154
+TCGA-DU-7011-01,TCGA-DU-7011,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,DU,CNS,2,Primary,0.3028,0,Matched,0.566666667,Henry Ford Hospital,4
+TCGA-DU-7012-01,TCGA-DU-7012,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,7,Primary,0.3339,0,Matched,1.6,Henry Ford Hospital,26
+TCGA-DU-7013-01,TCGA-DU-7013,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,8,Primary,0.3016,0.03,Matched,1.233333333,Henry Ford Hospital,22
+TCGA-DU-7014-01,TCGA-DU-7014,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,4,Primary,0.3225,0,Matched,0,Henry Ford Hospital,36
+TCGA-DU-7015-01,TCGA-DU-7015,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,3,Primary,0.3113,0.03,Matched,1.033333333,Henry Ford Hospital,40
+TCGA-DU-7018-01,TCGA-DU-7018,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,6,Primary,0.3024,0,Matched,1.1,Henry Ford Hospital,14
+TCGA-DU-7019-01,TCGA-DU-7019,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,,Yes,No,DU,CNS,1,Primary,0.32,0,Matched,1.1,Henry Ford Hospital,39
+TCGA-DU-7290-01,TCGA-DU-7290,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,7,Primary,0.2983,0,Matched,1.066666667,Henry Ford Hospital,27
+TCGA-DU-7292-01,TCGA-DU-7292,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,4,Primary,0.2991,0.02,Matched,1.3,Henry Ford Hospital,30
+TCGA-DU-7294-01,TCGA-DU-7294,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,4,Primary,0.3004,0,Matched,15,Henry Ford Hospital,4
+TCGA-DU-7298-01,TCGA-DU-7298,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,4,Primary,0.3159,0.01,Matched,9.966666667,Henry Ford Hospital,37
+TCGA-DU-7299-01,TCGA-DU-7299,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,3,Primary,0.3023,0.02,Matched,1.066666667,Henry Ford Hospital,52
+TCGA-DU-7300-01,TCGA-DU-7300,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,4,Primary,0.3353,0,Matched,1.633333333,Henry Ford Hospital,19
+TCGA-DU-7301-01,TCGA-DU-7301,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,1,Primary,0.3472,0.05,Matched,0.866666667,Henry Ford Hospital,16
+TCGA-DU-7302-01,TCGA-DU-7302,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,4,Primary,0.3434,0.09,Matched,1.566666667,Henry Ford Hospital,12
+TCGA-DU-7304-01,TCGA-DU-7304,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,3,Primary,0.3455,0.12,Matched,1,Henry Ford Hospital,36
+TCGA-DU-7306-01,TCGA-DU-7306,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,DU,CNS,2,Primary,0.3466,0,Matched,1.9,Henry Ford Hospital,32
+TCGA-DU-7309-01,TCGA-DU-7309,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DU,CNS,0,Primary,0.3361,0,Matched,1.3,Henry Ford Hospital,12
+TCGA-DU-8158-01,TCGA-DU-8158,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,11,Primary,0.345,0,Matched,1.333333333,Henry Ford Hospital,42
+TCGA-DU-8161-01,TCGA-DU-8161,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,9,Primary,0.3379,0,Matched,1.2,Henry Ford Hospital,43
+TCGA-DU-8162-01,TCGA-DU-8162,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DU,CNS,3,Primary,0.2975,0.1,Matched,0.733333333,Henry Ford Hospital,28
+TCGA-DU-8163-01,TCGA-DU-8163,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DU,CNS,2,Primary,0.3338,0.05,Matched,0.433333333,Henry Ford Hospital,16
+TCGA-DU-8164-01,TCGA-DU-8164,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,2,Primary,0.342,0,Matched,1.1,Henry Ford Hospital,3
+TCGA-DU-8165-01,TCGA-DU-8165,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DU,CNS,26,Primary,0.3305,0,Matched,2.066666667,Henry Ford Hospital,39
+TCGA-DU-8166-01,TCGA-DU-8166,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DU,CNS,3,Primary,0.317,0,Matched,0.9,Henry Ford Hospital,19
+TCGA-DU-8167-01,TCGA-DU-8167,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DU,CNS,5,Primary,0.3418,0,Matched,1.666666667,Henry Ford Hospital,78
+TCGA-DU-8168-01,TCGA-DU-8168,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DU,CNS,2,Primary,0.3378,0,Matched,1.966666667,Henry Ford Hospital,19
+TCGA-DU-A5TP-01,TCGA-DU-A5TP,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,1,Primary,0.3051,0.05,Matched,0.933333333,Henry Ford Hospital,80
+TCGA-DU-A5TR-01,TCGA-DU-A5TR,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,DU,CNS,5,Primary,0.3103,0.01,Matched,1.333333333,Henry Ford Hospital,11
+TCGA-DU-A5TS-01,TCGA-DU-A5TS,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,2,Primary,0.3178,0.01,Matched,1.2,Henry Ford Hospital,49
+TCGA-DU-A5TT-01,TCGA-DU-A5TT,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DU,CNS,30,Primary,0.3051,0.01,Matched,1.5,Henry Ford Hospital,38
+TCGA-DU-A5TU-01,TCGA-DU-A5TU,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,DU,CNS,3,Primary,0.3018,0.01,Matched,1.366666667,Henry Ford Hospital,32
+TCGA-DU-A5TW-01,TCGA-DU-A5TW,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,4,Primary,0.3286,0.05,Matched,1.5,Henry Ford Hospital,34
+TCGA-DU-A5TY-01,TCGA-DU-A5TY,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,13,Primary,0.3033,0.12,Matched,1.666666667,Henry Ford Hospital,200
+TCGA-DU-A6S2-01,TCGA-DU-A6S2,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,2,Primary,0.3401,0,Matched,0.466666667,Henry Ford Hospital,2
+TCGA-DU-A6S3-01,TCGA-DU-A6S3,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,2,Primary,0.3307,0.02,Matched,0.966666667,Henry Ford Hospital,8
+TCGA-DU-A6S6-01,TCGA-DU-A6S6,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,DU,CNS,2,Primary,0.331,0,Matched,0.5,Henry Ford Hospital,5
+TCGA-DU-A6S7-01,TCGA-DU-A6S7,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,6,Primary,0.3117,0.03,Matched,0.933333333,Henry Ford Hospital,25
+TCGA-DU-A6S8-01,TCGA-DU-A6S8,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,DU,CNS,7,Primary,0.3299,0.02,Matched,1.833333333,Henry Ford Hospital,12
+TCGA-DU-A76K-01,TCGA-DU-A76K,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,10,Primary,0.3053,0.05,Matched,1.633333333,Henry Ford Hospital,30
+TCGA-DU-A76L-01,TCGA-DU-A76L,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,8,Primary,0.3227,0,Matched,1.2,Henry Ford Hospital,29
+TCGA-DU-A76O-01,TCGA-DU-A76O,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,DU,CNS,2,Primary,,0.01,Matched,0.833333333,Henry Ford Hospital,16
+TCGA-DU-A76R-01,TCGA-DU-A76R,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,3,Primary,0.3275,0.02,Matched,1.266666667,Henry Ford Hospital,7
+TCGA-DU-A7T6-01,TCGA-DU-A7T6,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,DU,CNS,15,Primary,0.3107,0.01,Matched,3.666666667,Henry Ford Hospital,94
+TCGA-DU-A7T8-01,TCGA-DU-A7T8,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,DU,CNS,1,Primary,0.3095,0,Matched,0.533333333,Henry Ford Hospital,16
+TCGA-DU-A7TA-01,TCGA-DU-A7TA,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,10,Primary,0.2979,0.01,Matched,1.3,Henry Ford Hospital,123
+TCGA-DU-A7TB-01,TCGA-DU-A7TB,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,DU,CNS,1,Primary,0.2925,0.03,Matched,1,Henry Ford Hospital,2
+TCGA-DU-A7TC-01,TCGA-DU-A7TC,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,DU,CNS,3,Primary,0.3255,0,Matched,0.833333333,Henry Ford Hospital,156
+TCGA-DU-A7TD-01,TCGA-DU-A7TD,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,DU,CNS,6,Primary,0.3146,0.02,Matched,1.233333333,Henry Ford Hospital,46
+TCGA-DU-A7TG-01,TCGA-DU-A7TG,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,DU,CNS,2,Primary,0.3196,0,Matched,0.3,Henry Ford Hospital,5
+TCGA-DU-A7TI-01,TCGA-DU-A7TI,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,DU,CNS,1,Primary,0.331,0.03,Matched,0,Henry Ford Hospital,44
+TCGA-DU-A7TJ-01,TCGA-DU-A7TJ,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,DU,CNS,5,Primary,0.3345,0.05,Matched,1.233333333,Henry Ford Hospital,88
+TCGA-E1-5302-01,TCGA-E1-5302,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,1,Primary,0.2649,0.04,Matched,1,Duke,49
+TCGA-E1-5303-01,TCGA-E1-5303,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,2,Primary,0.2619,0.01,Matched,0.966666667,Duke,22
+TCGA-E1-5304-01,TCGA-E1-5304,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,22,Primary,0.2753,0.47,Matched,1.033333333,Duke,618
+TCGA-E1-5305-01,TCGA-E1-5305,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,2,Primary,0.3067,0.01,Matched,0.933333333,Duke,37
+TCGA-E1-5307-01,TCGA-E1-5307,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,7,Primary,0.3001,0,Matched,2.1,Duke,63
+TCGA-E1-5311-01,TCGA-E1-5311,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,E1,CNS,3,Primary,0.2577,0.02,Matched,0.566666667,Duke,5
+TCGA-E1-5318-01,TCGA-E1-5318,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,E1,CNS,2,Primary,0.267,0.06,Matched,1.3,Duke,50
+TCGA-E1-5319-01,TCGA-E1-5319,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,E1,CNS,2,Primary,0.3071,0.01,Matched,1.133333333,Duke,6
+TCGA-E1-5322-01,TCGA-E1-5322,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,E1,CNS,3,Primary,0.2614,0.16,Matched,0.833333333,Duke,25
+TCGA-E1-A7YD-01,TCGA-E1-A7YD,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,19,Primary,0.3261,0.04,Matched,1.666666667,Duke,96
+TCGA-E1-A7YE-01,TCGA-E1-A7YE,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,4,Primary,0.3292,0,Matched,2.066666667,Duke,53
+TCGA-E1-A7YH-01,TCGA-E1-A7YH,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,0,Primary,0.3282,0,Matched,0.833333333,Duke,4
+TCGA-E1-A7YI-01,TCGA-E1-A7YI,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,3,Primary,0.3294,0,Matched,1.466666667,Duke,74
+TCGA-E1-A7YJ-01,TCGA-E1-A7YJ,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,9,Primary,0.3257,0.04,Matched,1.066666667,Duke,47
+TCGA-E1-A7YK-01,TCGA-E1-A7YK,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,7,Primary,0.3297,0,Matched,1.666666667,Duke,37
+TCGA-E1-A7YL-01,TCGA-E1-A7YL,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,11,Primary,0.3183,0.04,Matched,1.733333333,Duke,138
+TCGA-E1-A7YM-01,TCGA-E1-A7YM,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,6,Primary,0.3181,0,Matched,1.166666667,Duke,25
+TCGA-E1-A7YN-01,TCGA-E1-A7YN,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,E1,CNS,5,Primary,0.3204,0,Matched,1.733333333,Duke,35
+TCGA-E1-A7YO-01,TCGA-E1-A7YO,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,E1,CNS,2,Primary,0.321,0,Matched,0.966666667,Duke,5
+TCGA-E1-A7YQ-01,TCGA-E1-A7YQ,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,E1,CNS,28,Primary,0.3293,0.15,Matched,1.133333333,Duke,30
+TCGA-E1-A7YS-01,TCGA-E1-A7YS,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,E1,CNS,24,Primary,0.325,0.23,Matched,1.7,Duke,5
+TCGA-E1-A7YU-01,TCGA-E1-A7YU,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,E1,CNS,0,Primary,0.3198,0,Matched,0.666666667,Duke,28
+TCGA-E1-A7YV-01,TCGA-E1-A7YV,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,E1,CNS,10,Primary,0.321,0.04,Matched,1.3,Duke,27
+TCGA-E1-A7YW-01,TCGA-E1-A7YW,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,E1,CNS,2,Primary,0.3285,0,Matched,0.633333333,Duke,15
+TCGA-E1-A7YY-01,TCGA-E1-A7YY,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,E1,CNS,2,Primary,0.3106,0,Matched,0.266666667,Duke,5
+TCGA-E1-A7Z2-01,TCGA-E1-A7Z2,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,E1,CNS,7,Primary,0.3159,0,Matched,1,Duke,130
+TCGA-E1-A7Z3-01,TCGA-E1-A7Z3,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,E1,CNS,1,Primary,0.3266,0,Matched,0.833333333,Duke,11
+TCGA-E1-A7Z4-01,TCGA-E1-A7Z4,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,E1,CNS,1,Primary,0.3246,0,Matched,0.6,Duke,23
+TCGA-E1-A7Z6-01,TCGA-E1-A7Z6,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,E1,CNS,1,Primary,0.3107,0,Matched,0.566666667,Duke,12
+TCGA-EZ-7264-01,TCGA-EZ-7264,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,EZ,CNS,5,Primary,0.3039,0,Matched,0.966666667,UNC,11
+TCGA-F6-A8O3-01,TCGA-F6-A8O3,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,F6,CNS,4,Primary,0.3289,0,Matched,0.666666667,Asterand,4
+TCGA-F6-A8O4-01,TCGA-F6-A8O4,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,F6,CNS,0,Primary,0.3305,0,Matched,0.966666667,Asterand,9
+TCGA-FG-5962-01,TCGA-FG-5962,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,FG,CNS,3,Primary,0.3002,0.01,Matched,1.233333333,Case Western,2
+TCGA-FG-5963-01,TCGA-FG-5963,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,FG,CNS,5,Primary,0.2997,0.18,Matched,0.9,Case Western,391
+TCGA-FG-5964-01,TCGA-FG-5964,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,FG,CNS,5,Primary,0.2944,0.02,Matched,1.3,Case Western,6
+TCGA-FG-5965-01,TCGA-FG-5965,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,FG,CNS,2,Primary,0.2951,0,Matched,1.333333333,Case Western,27
+TCGA-FG-6688-01,TCGA-FG-6688,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,FG,CNS,4,Primary,0.3084,0,Matched,1.966666667,Case Western,15
+TCGA-FG-6689-01,TCGA-FG-6689,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,FG,CNS,3,Primary,0.3059,0,Matched,0.8,Case Western,8
+TCGA-FG-6690-01,TCGA-FG-6690,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,0,Primary,0.3072,0,Matched,1.066666667,Case Western,17
+TCGA-FG-6691-01,TCGA-FG-6691,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,FG,CNS,3,Primary,0.2903,0,Matched,0.566666667,Case Western,15
+TCGA-FG-6692-01,TCGA-FG-6692,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,FG,CNS,7,Primary,0.2976,0,Matched,2.1,Case Western,36
+TCGA-FG-7634-01,TCGA-FG-7634,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,2,Primary,0.3424,0,Matched,0.533333333,Case Western,2
+TCGA-FG-7636-01,TCGA-FG-7636,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,FG,CNS,3,Primary,0.3321,0,Matched,1.266666667,Case Western,111
+TCGA-FG-7637-01,TCGA-FG-7637,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,,Primary,0.3339,0.07,Matched,0.966666667,Case Western,9
+TCGA-FG-7638-01,TCGA-FG-7638,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,FG,CNS,2,Primary,0.3535,0,Matched,0.466666667,Case Western,10
+TCGA-FG-7641-01,TCGA-FG-7641,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,3,Primary,0.3328,0,Matched,0.866666667,Case Western,5
+TCGA-FG-7643-01,TCGA-FG-7643,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,7,Primary,0.3356,0,Matched,1.566666667,Case Western,18
+TCGA-FG-8181-01,TCGA-FG-8181,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,FG,CNS,0,Primary,0.3245,0.04,Matched,0.066666667,Case Western,0
+TCGA-FG-8182-01,TCGA-FG-8182,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,2,Primary,0.3007,0.05,Matched,0.966666667,Case Western,21
+TCGA-FG-8185-01,TCGA-FG-8185,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,FG,CNS,1,Primary,0.3305,0,Matched,1.2,Case Western,24
+TCGA-FG-8186-01,TCGA-FG-8186,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,FG,CNS,2,Primary,0.3213,0,Matched,1.1,Case Western,5
+TCGA-FG-8187-01,TCGA-FG-8187,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,2,Primary,0.3327,0,Matched,0.433333333,Case Western,3
+TCGA-FG-8188-01,TCGA-FG-8188,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,2,Primary,0.3307,0,Matched,0.933333333,Case Western,13
+TCGA-FG-8189-01,TCGA-FG-8189,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,,Primary,0.3082,0,Matched,0.266666667,Case Western,0
+TCGA-FG-8191-01,TCGA-FG-8191,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,FG,CNS,0,Primary,0.3244,0.02,Matched,0.766666667,Case Western,10
+TCGA-FG-A4MT-01,TCGA-FG-A4MT,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,1,Primary,0.2957,0.02,Matched,0.566666667,Case Western,11
+TCGA-FG-A4MU-01,TCGA-FG-A4MU,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,FG,CNS,8,Primary,0.3113,0.04,Matched,1.766666667,Case Western,33
+TCGA-FG-A4MW-01,TCGA-FG-A4MW,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,FG,CNS,7,Primary,0.3281,0,Matched,1.966666667,Case Western,30
+TCGA-FG-A4MX-01,TCGA-FG-A4MX,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,FG,CNS,0,Primary,0.2943,0.05,Matched,0.833333333,Case Western,29
+TCGA-FG-A4MY-01,TCGA-FG-A4MY,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,2,Primary,0.3172,0,Matched,0.9,Case Western,29
+TCGA-FG-A60J-01,TCGA-FG-A60J,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,2,Primary,0.3257,0,Matched,1.233333333,Case Western,10
+TCGA-FG-A60K-01,TCGA-FG-A60K,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,2,Primary,0.3046,0.05,Matched,0.8,Case Western,3
+TCGA-FG-A60L-01,TCGA-FG-A60L,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,FG,CNS,3,Primary,0.3126,0.04,Matched,0.833333333,Case Western,28
+TCGA-FG-A6IZ-01,TCGA-FG-A6IZ,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,3,Primary,0.3011,0.1,Matched,1.966666667,Case Western,4
+TCGA-FG-A6J1-01,TCGA-FG-A6J1,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,4,Primary,0.3142,0.03,Matched,0.733333333,Case Western,2
+TCGA-FG-A6J3-01,TCGA-FG-A6J3,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,FG,CNS,8,Primary,0.3098,0.17,Matched,2.266666667,Case Western,163
+TCGA-FG-A70Y-01,TCGA-FG-A70Y,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,0,Primary,0.3158,0,Matched,0.566666667,Case Western,40
+TCGA-FG-A70Z-01,TCGA-FG-A70Z,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,FG,CNS,5,Primary,0.3071,0.01,Matched,1.533333333,Case Western,78
+TCGA-FG-A710-01,TCGA-FG-A710,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,2,Primary,0.3077,0.07,Matched,1.1,Case Western,9
+TCGA-FG-A711-01,TCGA-FG-A711,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,FG,CNS,1,Primary,0.2984,0.03,Matched,1.233333333,Case Western,22
+TCGA-FG-A713-01,TCGA-FG-A713,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,FG,CNS,2,Primary,0.3232,0,Matched,0.833333333,Case Western,11
+TCGA-FG-A87N-01,TCGA-FG-A87N,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,FG,CNS,2,Primary,0.3341,0.03,Matched,0.9,Case Western,22
+TCGA-FG-A87Q-01,TCGA-FG-A87Q,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,FG,CNS,8,Primary,0.3257,0,Matched,1.833333333,Case Western,75
+TCGA-FN-7833-01,TCGA-FN-7833,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,FN,CNS,0,Primary,0.3294,0,Matched,0.7,International Genomics Consortium,5
+TCGA-HT-7467-01,TCGA-HT-7467,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,4,Primary,0.3082,0,Matched,1,Case Western - St Joes,4
+TCGA-HT-7468-01,TCGA-HT-7468,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,3,Primary,0.3085,0.03,Matched,0.5,Case Western - St Joes,4
+TCGA-HT-7469-01,TCGA-HT-7469,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,5,Primary,0.3254,0.02,Matched,0.933333333,Case Western - St Joes,33
+TCGA-HT-7470-01,TCGA-HT-7470,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,3,Primary,0.3411,0,Matched,1.333333333,Case Western - St Joes,74
+TCGA-HT-7471-01,TCGA-HT-7471,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3498,0,Matched,0.566666667,Case Western - St Joes,4
+TCGA-HT-7472-01,TCGA-HT-7472,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,0,Primary,0.2962,0,Matched,0.566666667,Case Western - St Joes,31
+TCGA-HT-7473-01,TCGA-HT-7473,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,4,Primary,0.2863,0.02,Matched,0.633333333,Case Western - St Joes,46
+TCGA-HT-7474-01,TCGA-HT-7474,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3025,0,Matched,0.733333333,Case Western - St Joes,13
+TCGA-HT-7475-01,TCGA-HT-7475,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,4,Primary,0.3106,0.05,Matched,1.633333333,Case Western - St Joes,31
+TCGA-HT-7476-01,TCGA-HT-7476,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,3,Primary,0.3046,0,Matched,1.166666667,Case Western - St Joes,39
+TCGA-HT-7477-01,TCGA-HT-7477,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,13,Primary,0.324,0.02,Matched,1.333333333,Case Western - St Joes,417
+TCGA-HT-7478-01,TCGA-HT-7478,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3039,0,Matched,0.833333333,Case Western - St Joes,12
+TCGA-HT-7479-01,TCGA-HT-7479,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,3,Primary,0.3132,0.01,Matched,0.733333333,Case Western - St Joes,6
+TCGA-HT-7480-01,TCGA-HT-7480,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,3,Primary,0.3363,0.02,Matched,0.833333333,Case Western - St Joes,7
+TCGA-HT-7481-01,TCGA-HT-7481,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.328,0,Matched,1,Case Western - St Joes,7
+TCGA-HT-7482-01,TCGA-HT-7482,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,4,Primary,,0,Matched,0.466666667,Case Western - St Joes,6
+TCGA-HT-7483-01,TCGA-HT-7483,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,1,Primary,0.2932,0,Matched,0.6,Case Western - St Joes,28
+TCGA-HT-7485-01,TCGA-HT-7485,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3123,0,Matched,0.433333333,Case Western - St Joes,15
+TCGA-HT-7601-01,TCGA-HT-7601,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,1,Primary,0.3289,0.02,Matched,0.733333333,Case Western - St Joes,13
+TCGA-HT-7602-01,TCGA-HT-7602,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,0,Primary,0.3357,0,Matched,0.366666667,Case Western - St Joes,1
+TCGA-HT-7603-01,TCGA-HT-7603,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,0,Primary,0.3088,0.11,Matched,0.933333333,Case Western - St Joes,25
+TCGA-HT-7604-01,TCGA-HT-7604,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,1,Primary,0.3542,0.02,Matched,1.366666667,Case Western - St Joes,39
+TCGA-HT-7605-01,TCGA-HT-7605,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.3393,0,Matched,0.9,Case Western - St Joes,2
+TCGA-HT-7606-01,TCGA-HT-7606,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.2975,0.19,Matched,0.8,Case Western - St Joes,46
+TCGA-HT-7607-01,TCGA-HT-7607,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,3,Primary,0.3408,0,Matched,0.966666667,Case Western - St Joes,8
+TCGA-HT-7608-01,TCGA-HT-7608,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3413,0,Matched,0.633333333,Case Western - St Joes,2
+TCGA-HT-7609-01,TCGA-HT-7609,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,0,Primary,0.3513,0.05,Matched,0.833333333,Case Western - St Joes,5
+TCGA-HT-7610-01,TCGA-HT-7610,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3365,0.07,Matched,0.5,Case Western - St Joes,14
+TCGA-HT-7611-01,TCGA-HT-7611,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,1,Primary,0.3385,0.01,Matched,0.933333333,Case Western - St Joes,36
+TCGA-HT-7616-01,TCGA-HT-7616,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,4,Primary,0.3365,0.02,Matched,1.4,Case Western - St Joes,12
+TCGA-HT-7620-01,TCGA-HT-7620,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3037,0,Matched,0.6,Case Western - St Joes,10
+TCGA-HT-7676-01,TCGA-HT-7676,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,0,Primary,0.3427,0.01,Matched,0.433333333,Case Western - St Joes,10
+TCGA-HT-7677-01,TCGA-HT-7677,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3353,0,Matched,1.233333333,Case Western - St Joes,5
+TCGA-HT-7680-01,TCGA-HT-7680,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3507,0,Matched,0.066666667,Case Western - St Joes,0
+TCGA-HT-7681-01,TCGA-HT-7681,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3192,0.18,Matched,0.4,Case Western - St Joes,5
+TCGA-HT-7684-01,TCGA-HT-7684,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,2,Primary,0.3053,0,Matched,1.2,Case Western - St Joes,4
+TCGA-HT-7686-01,TCGA-HT-7686,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,3,Primary,0.3197,0.08,Matched,0.633333333,Case Western - St Joes,74
+TCGA-HT-7687-01,TCGA-HT-7687,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3401,0.09,Matched,1.333333333,Case Western - St Joes,8
+TCGA-HT-7688-01,TCGA-HT-7688,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,8,Primary,0.3311,0.07,Matched,2.833333333,Case Western - St Joes,26
+TCGA-HT-7689-01,TCGA-HT-7689,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.3139,0.07,Matched,1.633333333,Case Western - St Joes,36
+TCGA-HT-7690-01,TCGA-HT-7690,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,2,Primary,0.3378,0.04,Matched,0.7,Case Western - St Joes,39
+TCGA-HT-7691-01,TCGA-HT-7691,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3188,0.08,Matched,0.166666667,Case Western - St Joes,2
+TCGA-HT-7692-01,TCGA-HT-7692,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,4,Primary,0.3302,0,Matched,0.7,Case Western - St Joes,4
+TCGA-HT-7693-01,TCGA-HT-7693,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,4,Primary,0.3422,0.05,Matched,1.133333333,Case Western - St Joes,16
+TCGA-HT-7694-01,TCGA-HT-7694,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3431,0.06,Matched,1.1,Case Western - St Joes,6
+TCGA-HT-7695-01,TCGA-HT-7695,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.353,0.02,Matched,0.533333333,Case Western - St Joes,4
+TCGA-HT-7854-01,TCGA-HT-7854,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3046,0.1,Matched,0.8,Case Western - St Joes,4
+TCGA-HT-7855-01,TCGA-HT-7855,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,1,Primary,0.333,0.05,Matched,1.2,Case Western - St Joes,32
+TCGA-HT-7856-01,TCGA-HT-7856,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,4,Primary,0.3203,0.12,Matched,0.333333333,Case Western - St Joes,5
+TCGA-HT-7857-01,TCGA-HT-7857,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,,,HT,CNS,5,Primary,0.3135,0.06,Matched,0.5,Case Western - St Joes,35
+TCGA-HT-7858-01,TCGA-HT-7858,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,1,Primary,0.3188,0.01,Matched,0.566666667,Case Western - St Joes,20
+TCGA-HT-7860-01,TCGA-HT-7860,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,9,Primary,0.3097,0,Matched,2.1,Case Western - St Joes,17
+TCGA-HT-7873-01,TCGA-HT-7873,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3182,0,Matched,0.833333333,Case Western - St Joes,61
+TCGA-HT-7874-01,TCGA-HT-7874,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3173,0.25,Matched,0.766666667,Case Western - St Joes,4
+TCGA-HT-7875-01,TCGA-HT-7875,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.3477,0.05,Matched,1.133333333,Case Western - St Joes,6
+TCGA-HT-7877-01,TCGA-HT-7877,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.3151,0,Matched,0.4,Case Western - St Joes,4
+TCGA-HT-7879-01,TCGA-HT-7879,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,1,Primary,0.3098,0,Matched,0.533333333,Case Western - St Joes,20
+TCGA-HT-7880-01,TCGA-HT-7880,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3401,0.01,Matched,0.266666667,Case Western - St Joes,2
+TCGA-HT-7881-01,TCGA-HT-7881,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.323,0,Matched,0.333333333,Case Western - St Joes,2
+TCGA-HT-7882-01,TCGA-HT-7882,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,8,Primary,0.3004,0,Matched,1.466666667,Case Western - St Joes,32
+TCGA-HT-7884-01,TCGA-HT-7884,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3233,0,Matched,1.233333333,Case Western - St Joes,11
+TCGA-HT-7902-01,TCGA-HT-7902,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,6,Primary,0.3317,0.01,Matched,0.933333333,Case Western - St Joes,9
+TCGA-HT-8010-01,TCGA-HT-8010,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.3236,0,Matched,0.366666667,Case Western - St Joes,14
+TCGA-HT-8011-01,TCGA-HT-8011,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,6,Primary,0.3254,0.06,Matched,1.233333333,Case Western - St Joes,19
+TCGA-HT-8012-01,TCGA-HT-8012,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,3,Primary,0.3326,0.07,Matched,0.7,Case Western - St Joes,2
+TCGA-HT-8013-01,TCGA-HT-8013,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,4,Primary,0.3117,0.01,Matched,0.933333333,Case Western - St Joes,8
+TCGA-HT-8015-01,TCGA-HT-8015,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3105,0,Matched,0.1,Case Western - St Joes,0
+TCGA-HT-8018-01,TCGA-HT-8018,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,3,Primary,0.3227,0,Matched,0.733333333,Case Western - St Joes,7
+TCGA-HT-8019-01,TCGA-HT-8019,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,,Primary,0.3202,0,Matched,0,Case Western - St Joes,0
+TCGA-HT-8104-01,TCGA-HT-8104,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,7,Primary,0.3196,0.04,Matched,1.8,Case Western - St Joes,73
+TCGA-HT-8105-01,TCGA-HT-8105,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3369,0,Matched,1.533333333,Case Western - St Joes,5
+TCGA-HT-8106-01,TCGA-HT-8106,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,7,Primary,0.3186,0,Matched,0.966666667,Case Western - St Joes,23
+TCGA-HT-8107-01,TCGA-HT-8107,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,0,Primary,0.3127,0,Matched,0.033333333,Case Western - St Joes,0
+TCGA-HT-8108-01,TCGA-HT-8108,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,0,Primary,0.3235,0,Matched,0.533333333,Case Western - St Joes,32
+TCGA-HT-8109-01,TCGA-HT-8109,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,2,Primary,0.3149,0.01,Matched,1.1,Case Western - St Joes,4
+TCGA-HT-8110-01,TCGA-HT-8110,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,5,Primary,0.317,0.21,Matched,0.966666667,Case Western - St Joes,22
+TCGA-HT-8111-01,TCGA-HT-8111,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,4,Primary,0.322,0,Matched,0.5,Case Western - St Joes,33
+TCGA-HT-8113-01,TCGA-HT-8113,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,1,Primary,0.3363,0,Matched,0.6,Case Western - St Joes,7
+TCGA-HT-8114-01,TCGA-HT-8114,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,HT,CNS,0,Primary,0.3168,0,Matched,0.566666667,Case Western - St Joes,5
+TCGA-HT-8558-01,TCGA-HT-8558,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,,Primary,0.3126,0.01,Matched,0.066666667,Case Western - St Joes,2
+TCGA-HT-8563-01,TCGA-HT-8563,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,2,Primary,0.3059,0,Matched,0.733333333,Case Western - St Joes,37
+TCGA-HT-8564-01,TCGA-HT-8564,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,25,Primary,0.4513,4.01,Matched,15.3,Case Western - St Joes,12
+TCGA-HT-A4DS-01,TCGA-HT-A4DS,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,14,Primary,0.3359,0,Matched,1.066666667,Case Western - St Joes,22
+TCGA-HT-A4DV-01,TCGA-HT-A4DV,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,,Primary,0.3128,0,Matched,0.433333333,Case Western - St Joes,2
+TCGA-HT-A5R5-01,TCGA-HT-A5R5,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,3,Primary,0.3252,0.01,Matched,0.966666667,Case Western - St Joes,6
+TCGA-HT-A5R7-01,TCGA-HT-A5R7,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,1,Primary,0.3312,0.05,Matched,1,Case Western - St Joes,64
+TCGA-HT-A5R9-01,TCGA-HT-A5R9,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,6,Primary,0.3315,0,Matched,1.3,Case Western - St Joes,8
+TCGA-HT-A5RA-01,TCGA-HT-A5RA,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,7,Primary,0.3277,0.19,Matched,1.366666667,Case Western - St Joes,95
+TCGA-HT-A5RB-01,TCGA-HT-A5RB,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,0,Primary,0.3218,0,Matched,0.666666667,Case Western - St Joes,5
+TCGA-HT-A5RC-01,TCGA-HT-A5RC,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,7,Primary,0.3144,0.03,Matched,1.6,Case Western - St Joes,75
+TCGA-HT-A614-01,TCGA-HT-A614,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,2,Primary,0.3017,0.02,Matched,1.2,Case Western - St Joes,168
+TCGA-HT-A615-01,TCGA-HT-A615,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,2,Primary,0.2926,0.01,Matched,1,Case Western - St Joes,5
+TCGA-HT-A616-01,TCGA-HT-A616,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,HT,CNS,3,Primary,0.2961,0.06,Matched,0.733333333,Case Western - St Joes,11
+TCGA-HT-A617-01,TCGA-HT-A617,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,11,Primary,0.3049,0,Matched,0.633333333,Case Western - St Joes,52
+TCGA-HT-A618-01,TCGA-HT-A618,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,6,Primary,0.311,0.05,Matched,0.7,Case Western - St Joes,46
+TCGA-HT-A61A-01,TCGA-HT-A61A,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,HT,CNS,,Primary,0.307,0,Matched,0.233333333,Case Western - St Joes,
+TCGA-HT-A61B-01,TCGA-HT-A61B,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,8,Primary,0.3194,0.07,Matched,1.333333333,Case Western - St Joes,130
+TCGA-HT-A61C-01,TCGA-HT-A61C,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,5,Primary,0.2984,0.08,Matched,1.266666667,Case Western - St Joes,19
+TCGA-HT-A74H-01,TCGA-HT-A74H,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,7,Primary,0.3187,0,Matched,1.5,Case Western - St Joes,56
+TCGA-HT-A74J-01,TCGA-HT-A74J,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,4,Primary,0.3272,0,Matched,0.866666667,Case Western - St Joes,50
+TCGA-HT-A74K-01,TCGA-HT-A74K,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,HT,CNS,5,Primary,0.3281,0,Matched,0.966666667,Case Western - St Joes,8
+TCGA-HT-A74L-01,TCGA-HT-A74L,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,HT,CNS,5,Primary,0.3207,0,Matched,0.433333333,Case Western - St Joes,9
+TCGA-HT-A74O-01,TCGA-HT-A74O,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,HT,CNS,1,Primary,0.3228,0.03,Matched,0.633333333,Case Western - St Joes,22
+TCGA-HW-7486-01,TCGA-HW-7486,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,,,HW,CNS,2,Primary,0.2981,0,Matched,0.333333333,MSKCC,2
+TCGA-HW-7487-01,TCGA-HW-7487,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,,,HW,CNS,4,Primary,0.2926,0,Matched,0.466666667,MSKCC,6
+TCGA-HW-7489-01,TCGA-HW-7489,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,,,HW,CNS,0,Primary,0.2992,0,Matched,0.666666667,MSKCC,44
+TCGA-HW-7490-01,TCGA-HW-7490,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,,,HW,CNS,2,Primary,0.3003,0,Matched,3.5,MSKCC,12
+TCGA-HW-7491-01,TCGA-HW-7491,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,,,HW,CNS,7,Primary,0.3073,0.17,Matched,0.533333333,MSKCC,8
+TCGA-HW-7493-01,TCGA-HW-7493,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,,,HW,CNS,0,Primary,0.3079,0,Matched,0,MSKCC,5
+TCGA-HW-7495-01,TCGA-HW-7495,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,,,HW,CNS,2,Primary,0.2961,0,Matched,0.6,MSKCC,3
+TCGA-HW-8319-01,TCGA-HW-8319,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,HW,CNS,3,Primary,0.3108,0.01,Matched,0.866666667,MSKCC,14
+TCGA-HW-8320-01,TCGA-HW-8320,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,HW,CNS,3,Primary,0.3379,0.07,Matched,0.8,MSKCC,23
+TCGA-HW-8321-01,TCGA-HW-8321,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,HW,CNS,0,Primary,0.3223,0.01,Matched,1.066666667,MSKCC,31
+TCGA-HW-8322-01,TCGA-HW-8322,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,HW,CNS,2,Primary,0.3312,0.01,Matched,0.8,MSKCC,6
+TCGA-HW-A5KJ-01,TCGA-HW-A5KJ,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,HW,CNS,2,Primary,0.3105,0.04,Matched,1.433333333,MSKCC,8
+TCGA-HW-A5KK-01,TCGA-HW-A5KK,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,HW,CNS,7,Primary,0.3076,0,Matched,1.266666667,MSKCC,108
+TCGA-HW-A5KL-01,TCGA-HW-A5KL,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,HW,CNS,0,Primary,0.3049,0.01,Matched,0.7,MSKCC,15
+TCGA-HW-A5KM-01,TCGA-HW-A5KM,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,HW,CNS,2,Primary,0.2977,0,Matched,0.6,MSKCC,28
+TCGA-IK-7675-01,TCGA-IK-7675,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,IK,CNS,2,Primary,0.3523,0.18,Matched,1.3,Christiana Healthcare,63
+TCGA-IK-8125-01,TCGA-IK-8125,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,IK,CNS,2,Primary,0.3048,0,Matched,1.6,Christiana Healthcare,5
+TCGA-KT-A74X-01,TCGA-KT-A74X,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,KT,CNS,3,Primary,0.3322,0.02,Matched,0.266666667,Hartford,5
+TCGA-KT-A7W1-01,TCGA-KT-A7W1,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,KT,CNS,6,Primary,0.3216,0,Matched,1.3,Hartford,34
+TCGA-P5-A5ET-01,TCGA-P5-A5ET,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,P5,CNS,2,Primary,0.3079,0,Matched,0.766666667,Cureline,5
+TCGA-P5-A5EU-01,TCGA-P5-A5EU,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,5,Primary,0.3157,0.18,Matched,0.8,Cureline,92
+TCGA-P5-A5EV-01,TCGA-P5-A5EV,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,4,Primary,0.3075,0.04,Matched,2.833333333,Cureline,29
+TCGA-P5-A5EW-01,TCGA-P5-A5EW,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,0,Primary,0.3161,0.06,Matched,0.566666667,Cureline,13
+TCGA-P5-A5EX-01,TCGA-P5-A5EX,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,P5,CNS,4,Primary,0.3291,0,Matched,0.7,Cureline,11
+TCGA-P5-A5EY-01,TCGA-P5-A5EY,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,0,Primary,0.295,0,Matched,0.033333333,Cureline,1
+TCGA-P5-A5EZ-01,TCGA-P5-A5EZ,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,2,Primary,0.3087,0,Matched,1.2,Cureline,118
+TCGA-P5-A5F0-01,TCGA-P5-A5F0,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,P5,CNS,4,Primary,0.3298,0.01,Matched,1.033333333,Cureline,2
+TCGA-P5-A5F1-01,TCGA-P5-A5F1,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,2,Primary,0.3352,0,Matched,0.566666667,Cureline,15
+TCGA-P5-A5F2-01,TCGA-P5-A5F2,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,1,Primary,0.3259,0.02,Matched,0.9,Cureline,21
+TCGA-P5-A5F4-01,TCGA-P5-A5F4,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,P5,CNS,5,Primary,0.3366,0.01,Matched,1,Cureline,41
+TCGA-P5-A5F6-01,TCGA-P5-A5F6,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,P5,CNS,18,Primary,0.3526,0.48,Matched,0.033333333,Cureline,1
+TCGA-P5-A72U-01,TCGA-P5-A72U,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,P5,CNS,7,Primary,0.3156,0,Matched,1.6,Cureline,51
+TCGA-P5-A72W-01,TCGA-P5-A72W,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,4,Primary,0.322,0.02,Matched,1.2,Cureline,50
+TCGA-P5-A72X-01,TCGA-P5-A72X,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,1,Primary,0.3191,0,Matched,0.4,Cureline,4
+TCGA-P5-A72Z-01,TCGA-P5-A72Z,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,P5,CNS,6,Primary,0.3185,0,Matched,0.9,Cureline,7
+TCGA-P5-A730-01,TCGA-P5-A730,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,P5,CNS,2,Primary,0.3176,0,Matched,0.7,Cureline,2
+TCGA-P5-A731-01,TCGA-P5-A731,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,P5,CNS,0,Primary,0.3289,0.01,Matched,0.733333333,Cureline,13
+TCGA-P5-A733-01,TCGA-P5-A733,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,2,Primary,0.325,0,Matched,1.266666667,Cureline,28
+TCGA-P5-A735-01,TCGA-P5-A735,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,P5,CNS,0,Primary,0.3327,0,Matched,0.8,Cureline,27
+TCGA-P5-A736-01,TCGA-P5-A736,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,0,Primary,0.331,0,Matched,0.866666667,Cureline,25
+TCGA-P5-A737-01,TCGA-P5-A737,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,P5,CNS,3,Primary,0.3204,0,Matched,0.733333333,Cureline,3
+TCGA-P5-A77W-01,TCGA-P5-A77W,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,P5,CNS,8,Primary,0.3201,0,Matched,0.966666667,Cureline,10
+TCGA-P5-A77X-01,TCGA-P5-A77X,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,P5,CNS,4,Primary,0.3367,0,Matched,0.933333333,Cureline,9
+TCGA-P5-A780-01,TCGA-P5-A780,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,10,Primary,0.3274,0.05,Matched,1.466666667,Cureline,93
+TCGA-P5-A781-01,TCGA-P5-A781,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,P5,CNS,2,Primary,0.3122,0,Matched,0.466666667,Cureline,8
+TCGA-QH-A65R-01,TCGA-QH-A65R,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,QH,CNS,4,Primary,0.3077,0.03,Matched,1.133333333,Fondazione-Besta,4
+TCGA-QH-A65S-01,TCGA-QH-A65S,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,QH,CNS,5,Primary,0.2997,0,Matched,0.6,Fondazione-Besta,29
+TCGA-QH-A65V-01,TCGA-QH-A65V,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,QH,CNS,2,Primary,0.3081,0.06,Matched,0.666666667,Fondazione-Besta,4
+TCGA-QH-A65X-01,TCGA-QH-A65X,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,QH,CNS,4,Primary,0.3232,0.04,Matched,0.733333333,Fondazione-Besta,5
+TCGA-QH-A65Z-01,TCGA-QH-A65Z,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,QH,CNS,3,Primary,0.3006,0.03,Matched,0.866666667,Fondazione-Besta,4
+TCGA-QH-A6CS-01,TCGA-QH-A6CS,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,QH,CNS,11,Primary,0.3038,0,Matched,0.6,Fondazione-Besta,24
+TCGA-QH-A6CU-01,TCGA-QH-A6CU,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,QH,CNS,2,Primary,0.3199,0,Matched,0.433333333,Fondazione-Besta,4
+TCGA-QH-A6CV-01,TCGA-QH-A6CV,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,QH,CNS,33,Primary,0.3116,0.07,Matched,1.633333333,Fondazione-Besta,66
+TCGA-QH-A6CW-01,TCGA-QH-A6CW,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,QH,CNS,0,Primary,0.326,0,Matched,1.466666667,Fondazione-Besta,28
+TCGA-QH-A6CX-01,TCGA-QH-A6CX,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,Yes,No,QH,CNS,4,Primary,0.3271,0.02,Matched,1.033333333,Fondazione-Besta,29
+TCGA-QH-A6CY-01,TCGA-QH-A6CY,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,QH,CNS,3,Primary,0.3068,0,Matched,0.5,Fondazione-Besta,2
+TCGA-QH-A6CZ-01,TCGA-QH-A6CZ,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,QH,CNS,4,Primary,0.3324,0,Matched,1.1,Fondazione-Besta,2
+TCGA-QH-A6X3-01,TCGA-QH-A6X3,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,QH,CNS,0,Primary,0.3128,0,Matched,0.766666667,Fondazione-Besta,5
+TCGA-QH-A6X4-01,TCGA-QH-A6X4,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,QH,CNS,3,Primary,0.3233,0,Matched,0.766666667,Fondazione-Besta,6
+TCGA-QH-A6X5-01,TCGA-QH-A6X5,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,QH,CNS,2,Primary,0.3222,0,Matched,0.8,Fondazione-Besta,4
+TCGA-QH-A6X8-01,TCGA-QH-A6X8,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,QH,CNS,4,Primary,0.3311,0.06,Matched,0.8,Fondazione-Besta,3
+TCGA-QH-A6X9-01,TCGA-QH-A6X9,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,QH,CNS,1,Primary,0.3346,0.04,Matched,1.5,Fondazione-Besta,48
+TCGA-QH-A6XA-01,TCGA-QH-A6XA,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,QH,CNS,2,Primary,0.3085,0.02,Matched,0.3,Fondazione-Besta,11
+TCGA-QH-A6XC-01,TCGA-QH-A6XC,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,QH,CNS,8,Primary,0.3276,0,Matched,1.4,Fondazione-Besta,29
+TCGA-QH-A86X-01,TCGA-QH-A86X,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,QH,CNS,2,Primary,0.3124,0,Matched,0.6,Fondazione-Besta,2
+TCGA-QH-A870-01,TCGA-QH-A870,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,Yes,No,QH,CNS,0,Primary,0.3252,0,Matched,0.7,Fondazione-Besta,14
+TCGA-R8-A6MK-01,TCGA-R8-A6MK,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,R8,CNS,2,Primary,0.3192,0,Matched,0.866666667,MD Anderson,8
+TCGA-R8-A6ML-01,TCGA-R8-A6ML,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,R8,CNS,2,Primary,0.3103,0,Matched,0.6,MD Anderson,9
+TCGA-R8-A6MO-01,TCGA-R8-A6MO,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,R8,CNS,2,Primary,0.3072,0,Matched,0.9,MD Anderson,5
+TCGA-RY-A83X-01,TCGA-RY-A83X,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,RY,CNS,3,Primary,0.3255,0,Matched,0.433333333,University of California San Francisco,6
+TCGA-RY-A83Y-01,TCGA-RY-A83Y,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,RY,CNS,2,Primary,0.3147,0.04,Matched,1.033333333,University of California San Francisco,4
+TCGA-RY-A83Z-01,TCGA-RY-A83Z,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,RY,CNS,4,Primary,0.3219,0.03,Matched,1.533333333,University of California San Francisco,65
+TCGA-RY-A840-01,TCGA-RY-A840,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,Yes,No,RY,CNS,4,Primary,0.3244,0.19,Matched,0.4,University of California San Francisco,4
+TCGA-RY-A843-01,TCGA-RY-A843,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,RY,CNS,0,Primary,0.3173,0,Matched,0.7,University of California San Francisco,1
+TCGA-RY-A845-01,TCGA-RY-A845,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,Yes,No,RY,CNS,2,Primary,0.3215,0,Matched,0.8,University of California San Francisco,2
+TCGA-RY-A847-01,TCGA-RY-A847,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,Yes,No,RY,CNS,2,Primary,0.3174,0.05,Matched,0.533333333,University of California San Francisco,5
+TCGA-S9-A6TS-01,TCGA-S9-A6TS,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,1,Primary,0.3057,0.07,Matched,2.166666667,Dept of Neurosurgery at University of Heidelberg,30
+TCGA-S9-A6TU-01,TCGA-S9-A6TU,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,1,Primary,0.3292,0.03,Matched,0.533333333,Dept of Neurosurgery at University of Heidelberg,18
+TCGA-S9-A6TV-01,TCGA-S9-A6TV,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,S9,CNS,0,Primary,0.3293,0.06,Matched,1.066666667,Dept of Neurosurgery at University of Heidelberg,37
+TCGA-S9-A6TW-01,TCGA-S9-A6TW,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,S9,CNS,10,Primary,0.3338,0,Matched,1.033333333,Dept of Neurosurgery at University of Heidelberg,5
+TCGA-S9-A6TX-01,TCGA-S9-A6TX,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,S9,CNS,4,Primary,0.3238,0,Matched,1.166666667,Dept of Neurosurgery at University of Heidelberg,9
+TCGA-S9-A6TY-01,TCGA-S9-A6TY,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,8,Primary,0.3165,0.03,Matched,0.566666667,Dept of Neurosurgery at University of Heidelberg,4
+TCGA-S9-A6TZ-01,TCGA-S9-A6TZ,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,1,Primary,0.3258,0,Matched,0.866666667,Dept of Neurosurgery at University of Heidelberg,6
+TCGA-S9-A6U0-01,TCGA-S9-A6U0,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,4,Primary,0.3121,0,Matched,1.2,Dept of Neurosurgery at University of Heidelberg,47
+TCGA-S9-A6U1-01,TCGA-S9-A6U1,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,2,Primary,0.2989,0.03,Matched,0.5,Dept of Neurosurgery at University of Heidelberg,1
+TCGA-S9-A6U2-01,TCGA-S9-A6U2,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,3,Primary,0.3006,0.04,Matched,0.8,Dept of Neurosurgery at University of Heidelberg,3
+TCGA-S9-A6U5-01,TCGA-S9-A6U5,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,2,Primary,0.3013,0.07,Matched,0.633333333,Dept of Neurosurgery at University of Heidelberg,2
+TCGA-S9-A6U6-01,TCGA-S9-A6U6,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,1,Primary,0.2982,0.07,Matched,1.166666667,Dept of Neurosurgery at University of Heidelberg,59
+TCGA-S9-A6U8-01,TCGA-S9-A6U8,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,0,Primary,0.2927,0.04,Matched,0.6,Dept of Neurosurgery at University of Heidelberg,0
+TCGA-S9-A6U9-01,TCGA-S9-A6U9,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,0,Primary,0.3187,0.02,Matched,0.633333333,Dept of Neurosurgery at University of Heidelberg,7
+TCGA-S9-A6UA-01,TCGA-S9-A6UA,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,5,Primary,0.2953,0.05,Matched,1.2,Dept of Neurosurgery at University of Heidelberg,32
+TCGA-S9-A6UB-01,TCGA-S9-A6UB,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,3,Primary,0.3065,0.05,Matched,0.7,Dept of Neurosurgery at University of Heidelberg,5
+TCGA-S9-A6WD-01,TCGA-S9-A6WD,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,S9,CNS,6,Primary,,0.08,Matched,0.733333333,Dept of Neurosurgery at University of Heidelberg,9
+TCGA-S9-A6WE-01,TCGA-S9-A6WE,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,2,Primary,0.308,0.04,Matched,0.333333333,Dept of Neurosurgery at University of Heidelberg,2
+TCGA-S9-A6WG-01,TCGA-S9-A6WG,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,0,Primary,0.3054,0,Matched,0.733333333,Dept of Neurosurgery at University of Heidelberg,28
+TCGA-S9-A6WH-01,TCGA-S9-A6WH,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,S9,CNS,10,Primary,0.2988,0.05,Matched,2.4,Dept of Neurosurgery at University of Heidelberg,9
+TCGA-S9-A6WI-01,TCGA-S9-A6WI,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,S9,CNS,2,Primary,0.3054,0.09,Matched,0.733333333,Dept of Neurosurgery at University of Heidelberg,4
+TCGA-S9-A6WL-01,TCGA-S9-A6WL,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,7,Primary,0.3037,0.23,Matched,1.9,Dept of Neurosurgery at University of Heidelberg,4
+TCGA-S9-A6WM-01,TCGA-S9-A6WM,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,9,Primary,0.3107,0.26,Matched,1.833333333,Dept of Neurosurgery at University of Heidelberg,47
+TCGA-S9-A6WN-01,TCGA-S9-A6WN,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,4,Primary,0.306,0.03,Matched,1.066666667,Dept of Neurosurgery at University of Heidelberg,9
+TCGA-S9-A6WO-01,TCGA-S9-A6WO,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,3,Primary,0.3207,0,Matched,0.966666667,Dept of Neurosurgery at University of Heidelberg,12
+TCGA-S9-A6WP-01,TCGA-S9-A6WP,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,S9,CNS,3,Primary,0.3241,0,Matched,1.133333333,Dept of Neurosurgery at University of Heidelberg,22
+TCGA-S9-A6WQ-01,TCGA-S9-A6WQ,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,S9,CNS,1,Primary,0.316,0,Matched,1.2,Dept of Neurosurgery at University of Heidelberg,21
+TCGA-S9-A7IQ-01,TCGA-S9-A7IQ,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,S9,CNS,4,Primary,0.3264,0,Matched,0.566666667,Dept of Neurosurgery at University of Heidelberg,4
+TCGA-S9-A7IS-01,TCGA-S9-A7IS,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,2,Primary,0.3268,0.09,Matched,1.566666667,Dept of Neurosurgery at University of Heidelberg,89
+TCGA-S9-A7IX-01,TCGA-S9-A7IX,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,10,Primary,0.3186,0,Matched,0.9,Dept of Neurosurgery at University of Heidelberg,37
+TCGA-S9-A7IY-01,TCGA-S9-A7IY,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,S9,CNS,2,Primary,0.3209,0,Matched,0.833333333,Dept of Neurosurgery at University of Heidelberg,2
+TCGA-S9-A7IZ-01,TCGA-S9-A7IZ,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,2,Primary,0.3315,0.06,Matched,0.933333333,Dept of Neurosurgery at University of Heidelberg,58
+TCGA-S9-A7J0-01,TCGA-S9-A7J0,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,S9,CNS,7,Primary,0.3264,0.07,Matched,1.2,Dept of Neurosurgery at University of Heidelberg,95
+TCGA-S9-A7J1-01,TCGA-S9-A7J1,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,2,Primary,0.3272,0,Matched,0.8,Dept of Neurosurgery at University of Heidelberg,3
+TCGA-S9-A7J2-01,TCGA-S9-A7J2,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,S9,CNS,2,Primary,0.3226,0,Matched,0.333333333,Dept of Neurosurgery at University of Heidelberg,6
+TCGA-S9-A7J3-01,TCGA-S9-A7J3,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,S9,CNS,2,Primary,0.3214,0.01,Matched,0.866666667,Dept of Neurosurgery at University of Heidelberg,2
+TCGA-S9-A7QW-01,TCGA-S9-A7QW,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,S9,CNS,2,Primary,0.3171,0,Matched,0.966666667,Dept of Neurosurgery at University of Heidelberg,27
+TCGA-S9-A7QX-01,TCGA-S9-A7QX,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,S9,CNS,1,Primary,0.3129,0.03,Matched,0.833333333,Dept of Neurosurgery at University of Heidelberg,31
+TCGA-S9-A7QY-01,TCGA-S9-A7QY,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,S9,CNS,5,Primary,0.3143,0,Matched,1.2,Dept of Neurosurgery at University of Heidelberg,4
+TCGA-S9-A7QZ-01,TCGA-S9-A7QZ,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,3,Primary,0.3165,0.06,Matched,1.9,Dept of Neurosurgery at University of Heidelberg,5
+TCGA-S9-A7R1-01,TCGA-S9-A7R1,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,S9,CNS,6,Primary,0.3215,0.07,Matched,0.666666667,Dept of Neurosurgery at University of Heidelberg,7
+TCGA-S9-A7R2-01,TCGA-S9-A7R2,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,5,Primary,0.3214,0.04,Matched,1.233333333,Dept of Neurosurgery at University of Heidelberg,60
+TCGA-S9-A7R3-01,TCGA-S9-A7R3,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,0,Primary,0.3032,0.07,Matched,0.866666667,Dept of Neurosurgery at University of Heidelberg,88
+TCGA-S9-A7R4-01,TCGA-S9-A7R4,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,0,Primary,0.3098,0.05,Matched,0.766666667,Dept of Neurosurgery at University of Heidelberg,13
+TCGA-S9-A7R7-01,TCGA-S9-A7R7,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,S9,CNS,3,Primary,0.3103,0,Matched,0.733333333,Dept of Neurosurgery at University of Heidelberg,30
+TCGA-S9-A7R8-01,TCGA-S9-A7R8,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,1,Primary,0.3175,0.1,Matched,1,Dept of Neurosurgery at University of Heidelberg,18
+TCGA-S9-A89V-01,TCGA-S9-A89V,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,S9,CNS,9,Primary,0.3258,0.04,Matched,1.366666667,Dept of Neurosurgery at University of Heidelberg,46
+TCGA-S9-A89Z-01,TCGA-S9-A89Z,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,S9,CNS,7,Primary,0.3042,0.01,Matched,1.966666667,Dept of Neurosurgery at University of Heidelberg,69
+TCGA-TM-A7C3-01,TCGA-TM-A7C3,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,TM,CNS,6,Primary,0.3229,0.01,Matched,1.866666667,The University of New South Wales,75
+TCGA-TM-A7C4-01,TCGA-TM-A7C4,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,TM,CNS,1,Primary,0.3311,0.02,Matched,1.2,The University of New South Wales,28
+TCGA-TM-A7C5-01,TCGA-TM-A7C5,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TM,CNS,5,Primary,0.3282,0.01,Matched,0.833333333,The University of New South Wales,7
+TCGA-TM-A7CA-01,TCGA-TM-A7CA,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,TM,CNS,1,Primary,0.3096,0.01,Matched,1.166666667,The University of New South Wales,7
+TCGA-TM-A7CF-01,TCGA-TM-A7CF,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,TM,CNS,2,Primary,0.3249,0,Matched,1.166666667,The University of New South Wales,267
+TCGA-TM-A84B-01,TCGA-TM-A84B,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,TM,CNS,6,Primary,0.3428,0,Matched,1,The University of New South Wales,124
+TCGA-TM-A84C-01,TCGA-TM-A84C,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,TM,CNS,0,Primary,0.3227,0,Matched,0.6,The University of New South Wales,0
+TCGA-TM-A84F-01,TCGA-TM-A84F,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,TM,CNS,1,Primary,0.3261,0,Matched,0.6,The University of New South Wales,10
+TCGA-TM-A84G-01,TCGA-TM-A84G,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,TM,CNS,2,Primary,0.3214,0.11,Matched,0.966666667,The University of New South Wales,21
+TCGA-TM-A84H-01,TCGA-TM-A84H,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,TM,CNS,4,Primary,0.3296,0.04,Matched,1.466666667,The University of New South Wales,34
+TCGA-TM-A84I-01,TCGA-TM-A84I,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,TM,CNS,11,Primary,0.3189,0.03,Matched,1.2,The University of New South Wales,360
+TCGA-TM-A84J-01,TCGA-TM-A84J,0,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,TM,CNS,7,Primary,0.3326,0.08,Matched,1.2,The University of New South Wales,98
+TCGA-TM-A84L-01,TCGA-TM-A84L,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TM,CNS,0,Primary,0.3247,0,Matched,0.7,The University of New South Wales,16
+TCGA-TM-A84M-01,TCGA-TM-A84M,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,TM,CNS,2,Primary,0.3177,0,Matched,0.866666667,The University of New South Wales,5
+TCGA-TM-A84O-01,TCGA-TM-A84O,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,TM,CNS,2,Primary,0.3239,0,Matched,0.833333333,The University of New South Wales,2
+TCGA-TM-A84Q-01,TCGA-TM-A84Q,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,TM,CNS,2,Primary,0.325,0.03,Matched,1,The University of New South Wales,21
+TCGA-TM-A84R-01,TCGA-TM-A84R,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TM,CNS,2,Primary,0.3172,0,Matched,0.333333333,The University of New South Wales,2
+TCGA-TM-A84S-01,TCGA-TM-A84S,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,TM,CNS,3,Primary,0.3258,0,Matched,0.433333333,The University of New South Wales,2
+TCGA-TM-A84T-01,TCGA-TM-A84T,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TM,CNS,0,Primary,0.3181,0.02,Matched,0.766666667,The University of New South Wales,10
+TCGA-TQ-A7RF-01,TCGA-TQ-A7RF,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,TQ,CNS,1,Primary,0.3059,0.31,Matched,0.8,University of Sao Paulo,22
+TCGA-TQ-A7RG-01,TCGA-TQ-A7RG,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,2,Primary,0.3074,0.04,Matched,0.766666667,University of Sao Paulo,4
+TCGA-TQ-A7RH-01,TCGA-TQ-A7RH,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,6,Primary,0.3208,0.16,Matched,1.233333333,University of Sao Paulo,59
+TCGA-TQ-A7RI-01,TCGA-TQ-A7RI,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TQ,CNS,5,Primary,0.324,0.09,Matched,0.8,University of Sao Paulo,4
+TCGA-TQ-A7RJ-01,TCGA-TQ-A7RJ,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,0,Primary,0.2963,0.01,Matched,1.333333333,University of Sao Paulo,13
+TCGA-TQ-A7RK-01,TCGA-TQ-A7RK,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,1,Primary,0.3029,0.14,Matched,0.7,University of Sao Paulo,35
+TCGA-TQ-A7RM-01,TCGA-TQ-A7RM,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,TQ,CNS,9,Primary,0.3073,0.69,Matched,1.933333333,University of Sao Paulo,114
+TCGA-TQ-A7RN-01,TCGA-TQ-A7RN,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TQ,CNS,2,Primary,0.307,0.09,Matched,0.866666667,University of Sao Paulo,5
+TCGA-TQ-A7RO-01,TCGA-TQ-A7RO,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,4,Primary,0.3066,0.08,Matched,0.566666667,University of Sao Paulo,5
+TCGA-TQ-A7RP-01,TCGA-TQ-A7RP,0,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,8,Primary,0.3122,0.01,Matched,1.3,University of Sao Paulo,4
+TCGA-TQ-A7RQ-01,TCGA-TQ-A7RQ,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TQ,CNS,4,Primary,0.3177,0.06,Matched,0.833333333,University of Sao Paulo,4
+TCGA-TQ-A7RR-01,TCGA-TQ-A7RR,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,TQ,CNS,6,Primary,0.3198,0,Matched,0.866666667,University of Sao Paulo,23
+TCGA-TQ-A7RS-01,TCGA-TQ-A7RS,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TQ,CNS,2,Primary,0.2989,0.17,Matched,0.533333333,University of Sao Paulo,8
+TCGA-TQ-A7RU-01,TCGA-TQ-A7RU,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TQ,CNS,2,Primary,0.3148,0.07,Matched,0.866666667,University of Sao Paulo,5
+TCGA-TQ-A7RV-01,TCGA-TQ-A7RV,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,TQ,CNS,1,Primary,0.3217,0.01,Matched,0.833333333,University of Sao Paulo,58
+TCGA-TQ-A7RW-01,TCGA-TQ-A7RW,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,TQ,CNS,4,Primary,0.307,0.06,Matched,1.366666667,University of Sao Paulo,49
+TCGA-TQ-A8XE-01,TCGA-TQ-A8XE,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,No,TQ,CNS,2,Primary,0.3362,0,Matched,1.2,University of Sao Paulo,48
+TCGA-VM-A8C8-01,TCGA-VM-A8C8,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,VM,CNS,10,Primary,0.3238,0.02,Matched,1.133333333,Huntsman Cancer Institute,62
+TCGA-VM-A8C9-01,TCGA-VM-A8C9,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,VM,CNS,2,Primary,0.3188,0,Matched,0.166666667,Huntsman Cancer Institute,3
+TCGA-VM-A8CA-01,TCGA-VM-A8CA,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,VM,CNS,19,Primary,0.3185,0,Matched,0.833333333,Huntsman Cancer Institute,4
+TCGA-VM-A8CB-01,TCGA-VM-A8CB,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,VM,CNS,4,Primary,0.3204,0.07,Matched,0.8,Huntsman Cancer Institute,12
+TCGA-VM-A8CD-01,TCGA-VM-A8CD,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,VM,CNS,8,Primary,0.3279,0,Matched,0.733333333,Huntsman Cancer Institute,54
+TCGA-VM-A8CE-01,TCGA-VM-A8CE,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,VM,CNS,2,Primary,0.315,0,Matched,0.5,Huntsman Cancer Institute,2
+TCGA-VM-A8CF-01,TCGA-VM-A8CF,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,VM,CNS,10,Primary,0.3315,0.04,Matched,1.1,Huntsman Cancer Institute,90
+TCGA-VM-A8CH-01,TCGA-VM-A8CH,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,VM,CNS,1,Primary,0.3204,0,Matched,0.266666667,Huntsman Cancer Institute,2
+TCGA-VV-A829-01,TCGA-VV-A829,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G3,No,Yes,VV,CNS,5,Primary,0.3226,0.04,Matched,0.966666667,John Wayne Cancer Center,33
+TCGA-VV-A86M-01,TCGA-VV-A86M,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,VV,CNS,0,Primary,0.3199,0,Matched,0.433333333,John Wayne Cancer Center,21
+TCGA-VW-A7QS-01,TCGA-VW-A7QS,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G3,No,Yes,VW,CNS,2,Primary,0.3031,0.23,Matched,1.1,Northwestern University,14
+TCGA-VW-A8FI-01,TCGA-VW-A8FI,0,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,Yes,No,VW,CNS,4,Primary,0.3289,0,Matched,1.666666667,Northwestern University,48
+TCGA-W9-A837-01,TCGA-W9-A837,1,data_mutations.txt: IDH1/IDH2 presence only,ODG,Glioma,Oligodendroglioma,Oligodendroglioma,G2,No,Yes,W9,CNS,2,Primary,0.3258,0.01,Matched,0.9,University of Kansas,3
+TCGA-WH-A86K-01,TCGA-WH-A86K,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,WH,CNS,1,Primary,0.3211,0.01,Matched,1.266666667,Greenville Health System,56
+TCGA-WY-A858-01,TCGA-WY-A858,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G3,No,Yes,WY,CNS,2,Primary,0.3216,0.01,Matched,1.1,Johns Hopkins,15
+TCGA-WY-A859-01,TCGA-WY-A859,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,WY,CNS,2,Primary,0.3152,0.02,Matched,0.966666667,Johns Hopkins,102
+TCGA-WY-A85A-01,TCGA-WY-A85A,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,WY,CNS,1,Primary,0.3252,0.02,Matched,0.466666667,Johns Hopkins,26
+TCGA-WY-A85B-01,TCGA-WY-A85B,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,WY,CNS,0,Primary,0.3309,0.03,Matched,0.433333333,Johns Hopkins,26
+TCGA-WY-A85C-01,TCGA-WY-A85C,1,data_mutations.txt: IDH1/IDH2 presence only,DIFG,Glioma,Astrocytoma,Astrocytoma,G2,No,Yes,WY,CNS,0,Primary,0.3184,0.04,Matched,0.9,Johns Hopkins,19
+TCGA-WY-A85D-01,TCGA-WY-A85D,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,WY,CNS,0,Primary,0.3142,0,Matched,1.033333333,Johns Hopkins,18
+TCGA-WY-A85E-01,TCGA-WY-A85E,1,data_mutations.txt: IDH1/IDH2 presence only,OAST,Glioma,Oligoastrocytoma,Oligoastrocytoma,G2,No,Yes,WY,CNS,5,Primary,0.3171,0,Matched,1.933333333,Johns Hopkins,218
+TCGA-R8-A6YH-01,TCGA-R8-A6YH,1,data_mutations.txt: IDH1/IDH2 presence only,LGGNOS,Glioma,Low-Grade Glioma (NOS),Low-Grade Glioma,,,,R8,,1,Primary,0.3313,0.11,Matched,0.266666667,MD Anderson,21

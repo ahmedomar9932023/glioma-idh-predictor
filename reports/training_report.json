@@ -1,0 +1,244 @@
+{
+  "selection_rule": "Models within 0.005 of the best inner-CV ROC AUC are ranked by CV balanced accuracy, then smaller train/CV gaps. This intentionally avoids choosing a perfect-training model when a similarly accurate model generalizes more honestly.",
+  "chosen_model": "linear_svm",
+  "n_train": 411,
+  "n_test": 103,
+  "train_class_counts": {
+    "0": 78,
+    "1": 333
+  },
+  "test_class_counts": {
+    "0": 20,
+    "1": 83
+  },
+  "model_comparison": {
+    "logistic_regression": {
+      "best_params": {
+        "model__C": 0.01,
+        "model__penalty": "l2",
+        "model__solver": "liblinear",
+        "select__k": 100
+      },
+      "grid_best_cv_roc_auc": 0.9909226594301221,
+      "train_metrics_on_refit": {
+        "roc_auc": 0.9950719950719951,
+        "average_precision": 0.9987227375578088,
+        "accuracy": 0.9367396593673966,
+        "balanced_accuracy": 0.9511434511434511,
+        "precision": 0.9935691318327974,
+        "recall": 0.9279279279279279,
+        "f1": 0.9596273291925466
+      },
+      "cv_mean": {
+        "roc_auc": 0.9909226594301221,
+        "average_precision": 0.9976894674358563,
+        "balanced_accuracy": 0.9308915649027589,
+        "f1": 0.9432174290580232
+      },
+      "cv_std": {
+        "roc_auc": 0.00832627038281897,
+        "average_precision": 0.002163665037487074,
+        "balanced_accuracy": 0.01674275687727306,
+        "f1": 0.014215076979890079
+      },
+      "cv_train_mean": {
+        "roc_auc": 0.9950940560119814,
+        "average_precision": 0.9987305763185894,
+        "balanced_accuracy": 0.9488570253712085,
+        "f1": 0.9571806199070462
+      }
+    },
+    "linear_svm": {
+      "best_params": {
+        "model__C": 0.01,
+        "select__k": 100
+      },
+      "grid_best_cv_roc_auc": 0.9908938263229308,
+      "train_metrics_on_refit": {
+        "roc_auc": 0.9969199969199969,
+        "average_precision": 0.999225109264256,
+        "accuracy": 0.9854014598540146,
+        "balanced_accuracy": 0.9811734811734811,
+        "precision": 0.9939577039274925,
+        "recall": 0.987987987987988,
+        "f1": 0.9909638554216867
+      },
+      "cv_mean": {
+        "roc_auc": 0.9908938263229308,
+        "average_precision": 0.9976340739805997,
+        "balanced_accuracy": 0.972908751696065,
+        "f1": 0.9879229647022264
+      },
+      "cv_std": {
+        "roc_auc": 0.009523237064076331,
+        "average_precision": 0.0025399061256492182,
+        "balanced_accuracy": 0.017490970400255337,
+        "f1": 0.0076876827191886465
+      },
+      "cv_train_mean": {
+        "roc_auc": 0.9971191570808136,
+        "average_precision": 0.9992778707377775,
+        "balanced_accuracy": 0.9822649834686995,
+        "f1": 0.992091678434776
+      }
+    },
+    "rbf_svm": {
+      "best_params": {
+        "model__C": 1.0,
+        "model__gamma": 0.001,
+        "select__k": 100
+      },
+      "grid_best_cv_roc_auc": 0.9905246494798734,
+      "train_metrics_on_refit": {
+        "roc_auc": 0.9943019943019943,
+        "average_precision": 0.998479063847493,
+        "accuracy": 0.9805352798053528,
+        "balanced_accuracy": 0.9732617232617233,
+        "precision": 0.9909365558912386,
+        "recall": 0.984984984984985,
+        "f1": 0.9879518072289156
+      },
+      "cv_mean": {
+        "roc_auc": 0.9905246494798734,
+        "average_precision": 0.9975536739701623,
+        "balanced_accuracy": 0.960408751696065,
+        "f1": 0.9849822796562782
+      },
+      "cv_std": {
+        "roc_auc": 0.008983615092060599,
+        "average_precision": 0.002406215374186592,
+        "balanced_accuracy": 0.0321699057807796,
+        "f1": 0.00817815953062066
+      },
+      "cv_train_mean": {
+        "roc_auc": 0.9945873589893026,
+        "average_precision": 0.9985730708457297,
+        "balanced_accuracy": 0.9763524735482537,
+        "f1": 0.9898403219636981
+      }
+    },
+    "random_forest": {
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2,
+        "select__k": 500
+      },
+      "grid_best_cv_roc_auc": 0.9905246494798734,
+      "train_metrics_on_refit": {
+        "roc_auc": 1.0,
+        "average_precision": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "cv_mean": {
+        "roc_auc": 0.9905246494798734,
+        "average_precision": 0.9975990357760939,
+        "balanced_accuracy": 0.9313331071913161,
+        "f1": 0.9807389412952926
+      },
+      "cv_std": {
+        "roc_auc": 0.00925766768169218,
+        "average_precision": 0.0024241092071800373,
+        "balanced_accuracy": 0.04510531056045244,
+        "f1": 0.011015620102596978
+      },
+      "cv_train_mean": {
+        "roc_auc": 1.0,
+        "average_precision": 1.0,
+        "balanced_accuracy": 1.0,
+        "f1": 1.0
+      }
+    },
+    "extra_trees": {
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2,
+        "select__k": 1000
+      },
+      "grid_best_cv_roc_auc": 0.9909226594301221,
+      "train_metrics_on_refit": {
+        "roc_auc": 1.0,
+        "average_precision": 0.9999999999999999,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "cv_mean": {
+        "roc_auc": 0.9909226594301221,
+        "average_precision": 0.9976803739594354,
+        "balanced_accuracy": 0.937977159656264,
+        "f1": 0.9821307899007635
+      },
+      "cv_std": {
+        "roc_auc": 0.008975796875843595,
+        "average_precision": 0.002401189221633455,
+        "balanced_accuracy": 0.04130218848431515,
+        "f1": 0.011187599740648296
+      },
+      "cv_train_mean": {
+        "roc_auc": 1.0,
+        "average_precision": 1.0,
+        "balanced_accuracy": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "final_test_metrics": {
+    "roc_auc": 0.9379518072289157,
+    "average_precision": 0.9672480355241284,
+    "accuracy": 0.970873786407767,
+    "balanced_accuracy": 0.9439759036144578,
+    "precision": 0.9761904761904762,
+    "recall": 0.9879518072289156,
+    "f1": 0.9820359281437125
+  },
+  "final_test_confusion_matrix": [
+    [
+      18,
+      2
+    ],
+    [
+      1,
+      82
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9,
+      "f1-score": 0.9230769230769231,
+      "support": 20.0
+    },
+    "1": {
+      "precision": 0.9761904761904762,
+      "recall": 0.9879518072289156,
+      "f1-score": 0.9820359281437125,
+      "support": 83.0
+    },
+    "accuracy": 0.970873786407767,
+    "macro avg": {
+      "precision": 0.9617794486215538,
+      "recall": 0.9439759036144578,
+      "f1-score": 0.9525564256103178,
+      "support": 103.0
+    },
+    "weighted avg": {
+      "precision": 0.9705939606297296,
+      "recall": 0.970873786407767,
+      "f1-score": 0.9705875776453069,
+      "support": 103.0
+    }
+  },
+  "leakage_controls": [
+    "Final test split is created before imputation, log transform, scaling, variance filtering, feature selection, and tuning.",
+    "All preprocessing and SelectKBest feature selection are inside sklearn Pipeline and therefore fitted only on training folds during CV.",
+    "Mutation data are used only to create IDH_status and never enter X.",
+    "Patient-level leakage is avoided for Source 2 because there is one sample per patient in the matched dataset.",
+    "Source 1 mutation matrix is excluded from predictors."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "file_roles": {
+    "data_mrna_seq_v2_rsem.txt": "Source 2 cBioPortal RSEM mRNA expression matrix; used as primary predictive feature source.",
+    "data_mutations.txt": "Source 2 MAF-like mutation table; used only to create IDH_status label from IDH1/IDH2.",
+    "data_clinical_sample.txt": "Source 2 sample metadata; used for sample matching, patient IDs, and summaries, not model features.",
+    "HiSeqV2": "Source 1 Xena-style gene expression matrix; inspected but excluded because it overlaps the Source 2 cohort and changes expression scale/cohort.",
+    "GBMLGG_mc3_gene_level.txt": "Source 1 gene-level mutation indicator matrix; inspected but excluded from predictive features to avoid mutation-derived leakage."
+  },
+  "shapes": {
+    "clinical_rows_columns": [
+      514,
+      19
+    ],
+    "source2_expression_genes_samples": [
+      20531,
+      514
+    ],
+    "source2_mutation_rows_samples": [
+      39299,
+      510
+    ],
+    "source1_hiseq_genes_samples": [
+      20530,
+      702
+    ],
+    "source1_mc3_genes_samples": [
+      40543,
+      825
+    ]
+  },
+  "id_summaries": {
+    "source2_mrna": {
+      "sample_count": 514,
+      "patient_count": 514,
+      "duplicate_sample_ids": 0,
+      "first_five": [
+        "TCGA-CS-4938-01",
+        "TCGA-CS-4941-01",
+        "TCGA-CS-4942-01",
+        "TCGA-CS-4943-01",
+        "TCGA-CS-4944-01"
+      ]
+    },
+    "source2_clinical": {
+      "sample_count": 514,
+      "patient_count": 514,
+      "duplicate_sample_ids": 0,
+      "first_five": [
+        "TCGA-CS-4938-01",
+        "TCGA-CS-4941-01",
+        "TCGA-CS-4942-01",
+        "TCGA-CS-4943-01",
+        "TCGA-CS-4944-01"
+      ]
+    },
+    "source2_mutations": {
+      "sample_count": 510,
+      "patient_count": 510,
+      "duplicate_sample_ids": 0,
+      "first_five": [
+        "TCGA-CS-4938-01",
+        "TCGA-CS-4941-01",
+        "TCGA-CS-4942-01",
+        "TCGA-CS-4943-01",
+        "TCGA-CS-4944-01"
+      ]
+    },
+    "source1_hiseq": {
+      "sample_count": 702,
+      "patient_count": 682,
+      "duplicate_sample_ids": 0,
+      "first_five": [
+        "TCGA-E1-5319-01",
+        "TCGA-HT-7693-01",
+        "TCGA-CS-6665-01",
+        "TCGA-S9-A7J2-01",
+        "TCGA-FG-A6J3-01"
+      ]
+    },
+    "source1_mc3": {
+      "sample_count": 825,
+      "patient_count": 825,
+      "duplicate_sample_ids": 0,
+      "first_five": [
+        "TCGA-02-0003-01",
+        "TCGA-02-0033-01",
+        "TCGA-02-0047-01",
+        "TCGA-02-0055-01",
+        "TCGA-02-2470-01"
+      ]
+    }
+  },
+  "overlap": {
+    "source2_mrna__source2_clinical": {
+      "sample_overlap": 514,
+      "patient_overlap": 514
+    },
+    "source2_mrna__source2_mutations": {
+      "sample_overlap": 510,
+      "patient_overlap": 510
+    },
+    "source2_mrna__source1_hiseq": {
+      "sample_overlap": 514,
+      "patient_overlap": 514
+    },
+    "source2_mrna__source1_mc3": {
+      "sample_overlap": 509,
+      "patient_overlap": 509
+    },
+    "source1_hiseq__source1_mc3": {
+      "sample_overlap": 661,
+      "patient_overlap": 665
+    }
+  },
+  "label_summary_if_source2_expression_matched": {
+    "matched_expression_clinical_samples": 514,
+    "idh_mutated_samples": 416,
+    "idh_wildtype_or_no_idh_mutation_rows": 98
+  },
+  "decision": "Use Source 2 as the main clean dataset. Exclude Source 1 from training because HiSeqV2 is overlapping/redundant expression data and GBMLGG_mc3_gene_level is mutation-derived data unsuitable as input features."
+}
