@@ -1,18 +1,15 @@
-# Python cache
+# Python
 __pycache__/
 *.pyc
-
-# Virtual environments
 .venv/
-.venv_packages/
-venv/
 
-# Raw data
+# Data
 data/raw/
+data/*.csv
 
-# Temporary results / smoke files
-results/web_predictions/
+# Results
+results/
 
-# OS junk
-Thumbs.db
+# OS
 .DS_Store
+Thumbs.db
