@@ -41,3 +41,23 @@ def top_genes(limit: int = 25) -> pd.DataFrame:
         return pd.DataFrame(columns=["gene", "importance", "signed_value"])
     return pd.read_csv(TOP_GENES_PATH).head(limit)
 
+
+def class_driver_genes(label: str, limit: int = 5) -> list[str]:
+    genes = top_genes(200)
+    if genes.empty or "gene" not in genes.columns:
+        return []
+
+    ranked = genes.copy()
+    if "signed_value" in ranked.columns:
+        if label == "IDH-mutant":
+            ranked = ranked[ranked["signed_value"] > 0]
+        else:
+            ranked = ranked[ranked["signed_value"] < 0]
+        if not ranked.empty:
+            ranked = ranked.assign(abs_signed=ranked["signed_value"].abs()).sort_values(
+                ["abs_signed", "importance"] if "importance" in ranked.columns else ["abs_signed"],
+                ascending=False,
+            )
+    if ranked.empty:
+        ranked = genes
+    return ranked["gene"].dropna().astype(str).head(limit).tolist()

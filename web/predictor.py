@@ -18,12 +18,14 @@ from infer import load_model, prepare_features, required_feature_names  # noqa: 
 from .charts import batch_charts_html
 from .components import (
     error_html,
+    filtered_empty_html,
     ready_html,
     results_table_html,
     single_case_html,
     success_html,
     summary_cards_html,
 )
+from .metadata import class_driver_genes
 from .settings import (
     DEFAULT_DECISION_THRESHOLD,
     MIN_FEATURE_OVERLAP,
@@ -37,6 +39,26 @@ from .validation import InputValidationError, validate_and_load_expression
 
 WEB_OUTPUT_DIR = RESULTS_DIR / "web_predictions"
 DEFAULT_MODEL_PATH = MODELS_DIR / "best_idh_expression_pipeline.joblib"
+
+
+def _load_web_model():
+    if not DEFAULT_MODEL_PATH.exists():
+        raise FileNotFoundError(
+            "The trained model file is missing. Expected models/best_idh_expression_pipeline.joblib. "
+            "On Hugging Face Spaces, make sure the model artifact is committed or available through Git LFS."
+        )
+    if DEFAULT_MODEL_PATH.stat().st_size < 1024:
+        raise FileNotFoundError(
+            "The trained model file appears too small to be a valid joblib artifact. "
+            "If this Space uses Git LFS, make sure the actual model file was uploaded, not only a pointer file."
+        )
+    try:
+        return load_model(DEFAULT_MODEL_PATH)
+    except Exception as exc:
+        raise RuntimeError(
+            "Could not load models/best_idh_expression_pipeline.joblib. "
+            "Check that the deployed Space has compatible package versions and the complete model artifact."
+        ) from exc
 
 
 def uploaded_path(uploaded_file: Any) -> Path:
@@ -57,8 +79,19 @@ def enrich_predictions(raw: pd.DataFrame, threshold: float = DEFAULT_DECISION_TH
     enriched["confidence_level"] = enriched["IDH_mutation_probability"].map(lambda value: confidence_level(value, threshold))
     enriched["borderline_flag"] = enriched["IDH_mutation_probability"].map(lambda value: is_borderline(value, threshold))
     enriched["interpretation"] = [
-        interpretation_text(label, bool(borderline))
-        for label, borderline in zip(enriched["predicted_label"], enriched["borderline_flag"])
+        interpretation_text(
+            label=label,
+            probability=probability,
+            confidence=confidence,
+            borderline=bool(borderline),
+            driver_genes=class_driver_genes(label, limit=4),
+        )
+        for label, probability, confidence, borderline in zip(
+            enriched["predicted_label"],
+            enriched["IDH_mutation_probability"],
+            enriched["confidence_level"],
+            enriched["borderline_flag"],
+        )
     ]
     return enriched[
         [
@@ -100,7 +133,7 @@ def summarize(predictions: pd.DataFrame, feature_metadata: dict, threshold: floa
 
 
 def predict_from_upload(uploaded_file: Any, threshold: float = DEFAULT_DECISION_THRESHOLD) -> tuple[pd.DataFrame, dict]:
-    model = load_model(DEFAULT_MODEL_PATH)
+    model = _load_web_model()
     required = required_feature_names(model)
     expression, validation_metadata = validate_and_load_expression(uploaded_path(uploaded_file), required)
     X, feature_metadata = prepare_features(
@@ -177,6 +210,8 @@ def filter_predictions(predictions: pd.DataFrame | None, label: str, confidence:
         if query:
             filtered = filtered[filtered["SAMPLE_ID"].astype(str).str.lower().str.contains(query, regex=False)]
     filtered = filtered.sort_values("IDH_mutation_probability", ascending=False)
+    if filtered.empty:
+        return filtered_empty_html()
     return results_table_html(filtered)
 
 
@@ -232,4 +267,3 @@ def run_prediction_for_app(uploaded_file: Any, threshold: float = DEFAULT_DECISI
         return app_empty_outputs(str(exc))
     except Exception as exc:
         return app_empty_outputs(f"Unexpected error: {type(exc).__name__}: {exc}")
-
