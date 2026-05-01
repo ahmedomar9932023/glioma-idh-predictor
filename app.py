@@ -25,7 +25,6 @@ from web.settings import DEFAULT_DECISION_THRESHOLD
 
 
 CSS_PATH = PROJECT_ROOT / "web" / "styles.css"
-EXAMPLE_PATH = PROJECT_ROOT / "data" / "examples" / "sample_expression_input.csv"
 APP_JS = """
 () => {
   document.documentElement.setAttribute("data-theme", "light");
@@ -380,24 +379,6 @@ def build_app() -> gr.Blocks:
                 """
             )
 
-            if EXAMPLE_PATH.exists():
-                with gr.Row(elem_id="demo-row"):
-                    gr.Examples(
-                        examples=[[str(EXAMPLE_PATH)]],
-                        inputs=[input_file],
-                        label="Try the included example dataset",
-                        elem_id="examples-panel",
-                    )
-                    gr.File(value=str(EXAMPLE_PATH), label="Download example dataset", interactive=False, elem_id="example-download")
-
-            gr.HTML(
-                """
-                <footer class="app-footer">
-                  <span>For research use only. Not intended for clinical diagnosis or treatment decisions.</span>
-                  <span>Powered by the preserved trained classification pipeline.</span>
-                </footer>
-                """
-            )
             predictions_state = gr.State(pd.DataFrame())
             predict_event = predict_button.click(
                 fn=loading_html,

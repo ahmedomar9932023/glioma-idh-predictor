@@ -3890,3 +3890,12 @@ body.model-drawer-open .model-drawer {
     flex-direction: column;
   }
 }
+
+/* Hide the default Gradio footer chrome without affecting app layout. */
+.gradio-container > footer,
+.gradio-container footer.footer,
+.gradio-container .built-with,
+.gradio-container [aria-label="Use via API"],
+.gradio-container [aria-label="Settings"] {
+  display: none !important;
+}
