@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from html import escape
 from pathlib import Path
 import sys
 
@@ -25,6 +26,7 @@ from web.settings import DEFAULT_DECISION_THRESHOLD
 
 
 CSS_PATH = PROJECT_ROOT / "web" / "styles.css"
+SIGNATURE_PATH = PROJECT_ROOT / "web" / "assets" / "signature" / "signature.html"
 APP_JS = """
 () => {
   document.documentElement.setAttribute("data-theme", "light");
@@ -47,6 +49,44 @@ APP_JS = """
 
 def load_css() -> str:
     return CSS_PATH.read_text(encoding="utf-8") if CSS_PATH.exists() else ""
+
+
+def load_signature_srcdoc() -> str:
+    if not SIGNATURE_PATH.exists():
+        return ""
+    return escape(SIGNATURE_PATH.read_text(encoding="utf-8"), quote=True)
+
+
+def author_footer_html() -> str:
+    signature_srcdoc = load_signature_srcdoc()
+    signature_markup = (
+        f"""
+        <iframe
+          class="author-signature-frame"
+          title="Ahmed Omar animated signature"
+          srcdoc="{signature_srcdoc}"
+          loading="lazy"
+          scrolling="no"
+        ></iframe>
+        """
+        if signature_srcdoc
+        else "<div class='author-signature-fallback'>Signature unavailable</div>"
+    )
+    return f"""
+    <footer class="author-footer">
+      <div class="author-footer-left">
+        <span class="author-footer-label">Ahmed Omar</span>
+      </div>
+      <div class="author-footer-center">
+        <a class="author-footer-link" href="https://github.com/ahmedomar9932023" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </div>
+      <div class="author-footer-right">
+        {signature_markup}
+      </div>
+    </footer>
+    """
 
 
 def build_app() -> gr.Blocks:
@@ -378,6 +418,7 @@ def build_app() -> gr.Blocks:
                 </aside>
                 """
             )
+            gr.HTML(author_footer_html())
 
             predictions_state = gr.State(pd.DataFrame())
             predict_event = predict_button.click(
