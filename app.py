@@ -78,9 +78,35 @@ def author_footer_html() -> str:
         <span class="author-footer-label">Ahmed Omar</span>
       </div>
       <div class="author-footer-center">
-        <a class="author-footer-link" href="https://github.com/ahmedomar9932023" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
+        <div class="author-footer-links" aria-label="Professional links">
+          <a class="author-footer-link" href="https://github.com/ahmedomar9932023" target="_blank" rel="noopener noreferrer">
+            <span class="author-footer-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.2-1.5 6.2-6.7A5.2 5.2 0 0 0 19 5.2 4.8 4.8 0 0 0 18.9 1S17.8.7 15 2.6a13.4 13.4 0 0 0-6 0C6.2.7 5.1 1 5.1 1A4.8 4.8 0 0 0 5 5.2a5.2 5.2 0 0 0-1.3 3.6c0 5.2 3.2 6.4 6.2 6.7a3.4 3.4 0 0 0-.9 2.6V22"/>
+              </svg>
+            </span>
+            <span>GitHub</span>
+          </a>
+          <a class="author-footer-link" href="https://www.linkedin.com/in/ahmed-omar-b7b17534b" target="_blank" rel="noopener noreferrer">
+            <span class="author-footer-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+          <a class="author-footer-link" href="mailto:ahmedomar99.32023@gmail.com">
+            <span class="author-footer-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="m3 7 9 6 9-6"/>
+              </svg>
+            </span>
+            <span>Email</span>
+          </a>
+        </div>
       </div>
       <div class="author-footer-right">
         {signature_markup}
