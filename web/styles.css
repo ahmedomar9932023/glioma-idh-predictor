@@ -3901,8 +3901,9 @@ body.model-drawer-open .model-drawer {
 }
 
 .author-footer {
+  position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(160px, 220px);
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 220px);
   align-items: center;
   gap: 20px;
   width: 100%;
@@ -3923,7 +3924,11 @@ body.model-drawer-open .model-drawer {
 }
 
 .author-footer-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   justify-content: center;
+  z-index: 1;
 }
 
 .author-footer-right {
@@ -4019,6 +4024,12 @@ body.model-drawer-open .model-drawer {
   .author-footer-center,
   .author-footer-right {
     justify-content: center;
+  }
+
+  .author-footer-center {
+    position: static;
+    left: auto;
+    transform: none;
   }
 
   .author-footer-links {
