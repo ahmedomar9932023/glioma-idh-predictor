@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Wish {
+  id               Int      @id @default(autoincrement())
+  public_id        String   @unique @default(cuid())
+  nickname         String
+  email            String
+  country          String   @default("")
+  wish_text        String
+  category         String   @default("general")
+  visibility       String   @default("public")
+  reminder_date    DateTime
+  created_at       DateTime @default(now())
+  payment_status   String   @default("pending")
+  stripe_session_id String? @unique
+  status           String   @default("burning")
+  reminder_sent    Boolean  @default(false)
+  responded_at     DateTime?
+}
